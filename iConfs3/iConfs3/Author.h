@@ -9,9 +9,16 @@
 #ifndef iConfs3_Author_h
 #define iConfs3_Author_h
 
-@interface Author : Person.h{
+@interface Author : Person{
     @protected
+    NSMutableDictionary *papers;
 }
+
+-(Paper*)getPaper:(NSString*)paperID;
+-(NSArray*)getAllPapers;
+-(BOOL)addPapper(Paper*);
+-(BOOL)removePaper:(NSString*)paperID;
 @end
+
 
 #endif

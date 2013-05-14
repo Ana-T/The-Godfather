@@ -68,6 +68,8 @@
 		705AD99E1742DA530069073A /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 		A058344B1742E33500F17B2B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A058344C1742FC8200F17B2B /* Author.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		A058344D1743038600F17B2B /* Organizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Organizer.h; sourceTree = "<group>"; };
+		A058344E174305F000F17B2B /* Speaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speaker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,8 @@
 				28068A1317427C6C009C43DE /* ViewController.h */,
 				A058344B1742E33500F17B2B /* Person.h */,
 				A058344C1742FC8200F17B2B /* Author.h */,
+				A058344D1743038600F17B2B /* Organizer.h */,
+				A058344E174305F000F17B2B /* Speaker.h */,
 				28068A1417427C6C009C43DE /* ViewController.m */,
 				280689FC17427C6C009C43DE /* Supporting Files */,
 			);

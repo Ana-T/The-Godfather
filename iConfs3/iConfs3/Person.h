@@ -20,7 +20,6 @@
     NSInteger personID;
 }
 
-@property(readwrite, copy) NSString *name;
 -(Person*)initWithData: (NSString*) n work: (NSString?) h image:(NSString*)imgPath personID: (int)pID;
 -(NSString*)getName;
 -(NSString*)getWork;
