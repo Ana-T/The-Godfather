@@ -24,6 +24,8 @@
 		28068A1F17427C6C009C43DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280689F717427C6C009C43DE /* Foundation.framework */; };
 		28068A2717427C6C009C43DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28068A2517427C6C009C43DE /* InfoPlist.strings */; };
 		28068A2A17427C6C009C43DE /* iConfs3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28068A2917427C6C009C43DE /* iConfs3Tests.m */; };
+		705AD99C1742D9AD0069073A /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705AD99B1742D9AD0069073A /* MenuViewController.m */; };
+		705AD99F1742DA530069073A /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705AD99E1742DA530069073A /* PageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		28068A2617427C6C009C43DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28068A2817427C6C009C43DE /* iConfs3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iConfs3Tests.h; sourceTree = "<group>"; };
 		28068A2917427C6C009C43DE /* iConfs3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iConfs3Tests.m; sourceTree = "<group>"; };
+		705AD99A1742D9AD0069073A /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		705AD99B1742D9AD0069073A /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		705AD99D1742DA530069073A /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		705AD99E1742DA530069073A /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 		280689FB17427C6C009C43DE /* iConfs3 */ = {
 			isa = PBXGroup;
 			children = (
+				705AD99D1742DA530069073A /* PageViewController.h */,
+				705AD99E1742DA530069073A /* PageViewController.m */,
+				705AD99A1742D9AD0069073A /* MenuViewController.h */,
+				705AD99B1742D9AD0069073A /* MenuViewController.m */,
 				28068A0417427C6C009C43DE /* AppDelegate.h */,
 				28068A0517427C6C009C43DE /* AppDelegate.m */,
 				28068A0D17427C6C009C43DE /* MainStoryboard_iPhone.storyboard */,
@@ -277,6 +287,8 @@
 				28068A0217427C6C009C43DE /* main.m in Sources */,
 				28068A0617427C6C009C43DE /* AppDelegate.m in Sources */,
 				28068A1517427C6C009C43DE /* ViewController.m in Sources */,
+				705AD99C1742D9AD0069073A /* MenuViewController.m in Sources */,
+				705AD99F1742DA530069073A /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +479,7 @@
 				28068A2F17427C6C009C43DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28068A3017427C6C009C43DE /* Build configuration list for PBXNativeTarget "iConfs3Tests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +488,7 @@
 				28068A3217427C6C009C43DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
