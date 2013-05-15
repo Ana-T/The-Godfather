@@ -78,6 +78,7 @@
 		A058345417431AF200F17B2B /* WC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
 		A058345517431C8400F17B2B /* EatingArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EatingArea.h; sourceTree = "<group>"; };
 		A058345617431DCE00F17B2B /* Room.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		A058345717439E1900F17B2B /* Conference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Conference.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +148,7 @@
 				28068A1017427C6C009C43DE /* MainStoryboard_iPad.storyboard */,
 				28068A1317427C6C009C43DE /* ViewController.h */,
 				A058344B1742E33500F17B2B /* Person.h */,
+				A058345717439E1900F17B2B /* Conference.h */,
 				A058344C1742FC8200F17B2B /* Author.h */,
 				A058344D1743038600F17B2B /* Organizer.h */,
 				A058344E174305F000F17B2B /* Speaker.h */,
