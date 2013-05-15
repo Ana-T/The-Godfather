@@ -70,6 +70,8 @@
 		A058344C1742FC8200F17B2B /* Author.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
 		A058344D1743038600F17B2B /* Organizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Organizer.h; sourceTree = "<group>"; };
 		A058344E174305F000F17B2B /* Speaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speaker.h; sourceTree = "<group>"; };
+		A058344F174306E000F17B2B /* Paper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Paper.h; sourceTree = "<group>"; };
+		A0583450174307DC00F17B2B /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,8 @@
 				A058344C1742FC8200F17B2B /* Author.h */,
 				A058344D1743038600F17B2B /* Organizer.h */,
 				A058344E174305F000F17B2B /* Speaker.h */,
+				A058344F174306E000F17B2B /* Paper.h */,
+				A0583450174307DC00F17B2B /* Event.h */,
 				28068A1417427C6C009C43DE /* ViewController.m */,
 				280689FC17427C6C009C43DE /* Supporting Files */,
 			);

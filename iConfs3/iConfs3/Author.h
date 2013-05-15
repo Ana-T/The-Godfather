@@ -11,7 +11,7 @@
 
 @interface Author : Person{
     @protected
-    NSMutableDictionary *papers;
+    NSMutableDictionary *_papers;
 }
 
 -(Paper*)getPaper:(NSString*)paperID;

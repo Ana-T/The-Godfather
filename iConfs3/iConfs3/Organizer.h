@@ -11,7 +11,7 @@
 
 @interface Organizer : Person{
 @protected
-    NSString *cargo;
+    NSString *_cargo;
 }
 
 -(Person*)initWithData: (NSString*) n work: (NSString?) h image:(NSString*)imgPath personID: (int)pID cargo: (NSString*)c;

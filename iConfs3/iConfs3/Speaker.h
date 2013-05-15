@@ -11,7 +11,7 @@
 
 @interface Speaker : Person{
 @protected
-    NSString *resume;
+    NSString *_resume;
 }
 
 -(Person*)initWithData: (NSString*) n work: (NSString?) h image:(NSString*)imgPath personID: (int)pID resume: (NSString*)r;
