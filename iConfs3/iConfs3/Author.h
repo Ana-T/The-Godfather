@@ -9,10 +9,12 @@
 #ifndef iConfs3_Author_h
 #define iConfs3_Author_h
 
-@interface Author : Person{
+@interface Author : Person
+/*{
     @protected
     NSMutableDictionary *_papers;
-}
+}*/
+@property (nonatomic) NSMutableDictionary* papers;
 
 -(Paper*)getPaper:(NSString*)paperID;
 -(NSArray*)getAllPapers;

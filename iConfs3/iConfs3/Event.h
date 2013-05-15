@@ -12,7 +12,7 @@
 #import <Foundation/NSObject.h>
 
 @interface Event: NSObject
-{
+/*{
     @protected
     NSDate *_date;
     NSString *_title;
@@ -22,7 +22,15 @@
     NSInteger vote;
     NSInteger rating;
     NSInteger eventID;
-}
+}*/
+@property (nonatomic) NSDate* date;
+@property (nonatomic) NSString* title;
+@property (nonatomic) NSString* theme;
+@property (nonatomic) Speaker* speaker;
+@property (nonatomic) BOOL userVoted;
+@property (nonatomic) int vote;
+@property (nonatomic) int rating;
+@property (nonatomic) int eventID;
 
 -(Event*)initWithData:(int)eID date:(NSDate*)d title:(NSString*)t theme:(NSString*)th;
 -(Event*)initWithDataAndSpeaker:(int)eID date:(NSDate*)d title:(NSString*)t theme:(NSString*)th speaker: (Speaker*)s;

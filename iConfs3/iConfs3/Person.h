@@ -12,13 +12,17 @@
 #import <Foundation/NSObject.h>
 
 @interface Person: NSObject
-{
+/*{
     @protected
     NSString *_name;
     NSString *_work;
     NSString *_imagePath;
     NSInteger personID;
-}
+}*/
+@property (nonatomic) NSString* name;
+@property (nonatomic) NSString* work;
+@property (nonatomic) NSString* imagepath;
+@property (nonatomic) int personID;
 
 -(Person*)initWithData: (NSString*) n work: (NSString?) h image:(NSString*)imgPath personID: (int)pID;
 -(NSString*)getName;

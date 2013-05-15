@@ -72,6 +72,12 @@
 		A058344E174305F000F17B2B /* Speaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speaker.h; sourceTree = "<group>"; };
 		A058344F174306E000F17B2B /* Paper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Paper.h; sourceTree = "<group>"; };
 		A0583450174307DC00F17B2B /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		A0583451174316AE00F17B2B /* Session.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		A0583452174317A900F17B2B /* Workshop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Workshop.h; sourceTree = "<group>"; };
+		A05834531743184000F17B2B /* Place.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		A058345417431AF200F17B2B /* WC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
+		A058345517431C8400F17B2B /* EatingArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EatingArea.h; sourceTree = "<group>"; };
+		A058345617431DCE00F17B2B /* Room.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,12 @@
 				A058344E174305F000F17B2B /* Speaker.h */,
 				A058344F174306E000F17B2B /* Paper.h */,
 				A0583450174307DC00F17B2B /* Event.h */,
+				A0583451174316AE00F17B2B /* Session.h */,
+				A0583452174317A900F17B2B /* Workshop.h */,
+				A05834531743184000F17B2B /* Place.h */,
+				A058345417431AF200F17B2B /* WC.h */,
+				A058345517431C8400F17B2B /* EatingArea.h */,
+				A058345617431DCE00F17B2B /* Room.h */,
 				28068A1417427C6C009C43DE /* ViewController.m */,
 				280689FC17427C6C009C43DE /* Supporting Files */,
 			);

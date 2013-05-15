@@ -9,12 +9,14 @@
 #ifndef iConfs3_Speaker_h
 #define iConfs3_Speaker_h
 
-@interface Speaker : Person{
+@interface Speaker : Person
+/*{
 @protected
     NSString *_resume;
-}
+}*/
+@property (nonatomic) NSString* resume;
 
--(Person*)initWithData: (NSString*) n work: (NSString?) h image:(NSString*)imgPath personID: (int)pID resume: (NSString*)r;
+-(Speaker*)initWithData: (NSString*) n work: (NSString?) h image:(NSString*)imgPath personID: (int)pID resume: (NSString*)r;
 -(NSString*)getResume;
 -(void)setResume:(NSString*)r;
 @end

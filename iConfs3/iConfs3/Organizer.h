@@ -9,12 +9,14 @@
 #ifndef iConfs3_Organizer_h
 #define iConfs3_Organizer_h
 
-@interface Organizer : Person{
+@interface Organizer : Person
+/*{
 @protected
     NSString *_cargo;
-}
+}*/
+@property (nonatomic) NSString* cargo;
 
--(Person*)initWithData: (NSString*) n work: (NSString?) h image:(NSString*)imgPath personID: (int)pID cargo: (NSString*)c;
+-(Organizer*)initWithData: (NSString*) n work: (NSString?) h image:(NSString*)imgPath personID: (int)pID cargo: (NSString*)c;
 -(NSString*)getCargo;
 -(void)setCargo:(NSString*)c;
 @end
