@@ -24,7 +24,7 @@
 @property (nonatomic) NSArray* sessions;
 @property (nonatomic) NSArray* workshops;
 @property (nonatomic) NSArray* events;
-@property (nonatomic) NSArray* agenda;
+
 
 -(Conference*)initWithData: (int)cID name: (NSString*)n logo_path:(NSString*)lp bluePrint:(NSMutableDictionary*)bp;
 -(BOOL)addAuthor:(Author*)author;
@@ -49,9 +49,6 @@
 -(BOOL)addOtherEvent:(News*)event;
 -(BOOL)removeOtherEvent:(int)eventID;
 -(NSArray*)getAllEvents;
--(BOOL)addEventToAgenda:(Event*)event;
--(BOOL)removeEventFromAgenda:(int)eventID;
--(NSArray*)getAgenda;
 -(void)changeLogoPath:(NSString*)lp;
 -(void)changeConferenceName:(NSString*)n;
 -(BOOL)changeBluePrint:(int)floor file_path:(NSString*);

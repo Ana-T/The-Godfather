@@ -79,6 +79,8 @@
 		A058345517431C8400F17B2B /* EatingArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EatingArea.h; sourceTree = "<group>"; };
 		A058345617431DCE00F17B2B /* Room.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 		A058345717439E1900F17B2B /* Conference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Conference.h; sourceTree = "<group>"; };
+		A09E7DDD1745310F00886397 /* iConfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iConfs.h; sourceTree = "<group>"; };
+		A09E7DDE1745341100886397 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,8 @@
 				28068A1317427C6C009C43DE /* ViewController.h */,
 				A058344B1742E33500F17B2B /* Person.h */,
 				A058345717439E1900F17B2B /* Conference.h */,
+				A09E7DDD1745310F00886397 /* iConfs.h */,
+				A09E7DDE1745341100886397 /* Notification.h */,
 				A058344C1742FC8200F17B2B /* Author.h */,
 				A058344D1743038600F17B2B /* Organizer.h */,
 				A058344E174305F000F17B2B /* Speaker.h */,

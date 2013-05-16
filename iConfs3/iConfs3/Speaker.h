@@ -16,7 +16,7 @@
 }*/
 @property (nonatomic) NSString* resume;
 
--(Speaker*)initWithData: (NSString*) n work: (NSString?) h image:(NSString*)imgPath personID: (int)pID resume: (NSString*)r;
+-(Speaker*)initWithData: (NSString*) n work: (NSString*) h image:(NSString*)imgPath personID: (int)pID resume: (NSString*)r;
 -(NSString*)getResume;
 -(void)setResume:(NSString*)r;
 @end
