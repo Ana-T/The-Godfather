@@ -36,6 +36,7 @@
 -(Event*)initWithDataAndSpeaker:(int)eID date:(NSDate*)d title:(NSString*)t theme:(NSString*)th speaker: (Speaker*)s;
 -(void)vote:(int)vote;
 -(NSString*)getTitle;
+-(int)getID;
 -(NSString*)getTheme;
 -(Speaker*)getSpeaker;
 -(void)setSpeaker:(Speaker*)s;
