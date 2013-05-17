@@ -167,13 +167,13 @@
 -(NSArray*)getSessions;
 -(BOOL)addWorkshop:(Workshop*)workshop;
 -(BOOL)removeWorkshop:(int)eventID;
--(NSArray*)getNWorkshops;
+-(NSArray*)getWorkshops;
 -(BOOL)addOtherEvent:(News*)event;
 -(BOOL)removeOtherEvent:(int)eventID;
 -(NSArray*)getAllEvents;
 -(void)changeLogoPath:(NSString*)lp;
 -(void)changeConferenceName:(NSString*)n;
--(BOOL)changeBluePrint:(int)floor file_path:(NSString*);
+-(BOOL)changeBluePrint:(int)floor file_path:(NSString*)fp;
 -(BOOL)deleteBluePrint:(int)floor;
 
 

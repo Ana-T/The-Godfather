@@ -12,21 +12,66 @@
 #import "Speaker.h"
 #import "News.h"
 #import "Notification.h"
+#import "Session.h"
+#import "Workshop.h"
 
 @interface Conference : NSObject
+{
+    @protected
+    NSString* logo_path;
+    int confID;
+    NSString* confName;
+    NSMutableDictionary* events;
+    NSMutableArray* news;
+    NSMutableDictionary* authors;
+    NSMutableDictionary* organizers;
+    NSMutableDictionary* speakers;
+    NSMutableArray* notifications;
+    NSMutableDictionary* bluePrints;
+    NSMutableArray* sessions;
+    NSMutableArray* workshops;
+    NSMutableArray* eventsList;
+    
+}
 
+//Path to the logo of the conference
 @property (nonatomic) NSString* logo_path;
+
+//ID of the conference
 @property (nonatomic) int confID;
+
+//Name of he conference
 @property (nonatomic) NSString* confName;
+
+//Dictiornary of the conference events
 @property (nonatomic) NSMutableDictionary* events;
+
+//Dictiornary of the conference news
 @property (nonatomic) NSMutableArray* news;
+
+//Dictiornary of the conference authors
 @property (nonatomic) NSMutableDictionary* authors;
+
+//Dictiornary of the conference organizers
 @property (nonatomic) NSMutableDictionary* organizers;
+
+//Dictiornary of the conference speakers
 @property (nonatomic) NSMutableDictionary* speakers;
+
+//Array of the conference notifications
 @property (nonatomic) NSMutableArray* notifications;
+
+//Dictiornary of the conference blueprints
 @property (nonatomic) NSMutableDictionary* bluePrints;
+
+//Array of the conference sessions
 @property (nonatomic) NSMutableArray* sessions;
+
+
+//Array of the conference workshops
 @property (nonatomic) NSMutableArray* workshops;
+
+//Array of the conference non-session nor workshop events
 @property (nonatomic) NSMutableArray* eventsList;
 
 /**
@@ -87,7 +132,7 @@
 -(BOOL)addSpeaker:(Speaker*)speaker;
 
 /**
- Removes a speaker to the conference
+ Removes a speaker from the conference
  @param personID speaker's ID to remove
  @returns true if the speaker has been removed, false if wasn't on the conference
  */
@@ -124,18 +169,94 @@
  @returns array of notifications
  */
 -(NSArray*)getNotifications;
+
+/**
+ Adds a session to the conference
+ @param session session to add
+ @returns true if the session has been added, false it had already been added
+ */
 -(BOOL)addSessions:(Session*)session;
+
+/**
+ Removes a workshop from the conference
+ @param eventID event's ID to remove
+ @returns true if the event has been removed, false if wasn't on the conference
+ */
 -(BOOL)removeSession:(int)eventID;
--(NSMutableArray*)getSessions;
+
+/**
+ Returns an non-mutable array with all the sessions from the conference
+ @returns array of sessions
+ */
+-(NSArray*)getSessions;
+
+/**
+ Adds a workshop to the conference
+ @param workshop workshop to add
+ @returns true if the workshop has been added, false it had already been added
+ */
 -(BOOL)addWorkshop:(Workshop*)workshop;
+
+/**
+ Removes a workshop from the conference
+ @param eventID event's ID to remove
+ @returns true if the event has been removed, false if wasn't on the conference
+ */
 -(BOOL)removeWorkshop:(int)eventID;
--(NSMutableArray*)getNWorkshops;
+
+/**
+ Returns an non-mutable array with all the workshops from the conference
+ @returns array of workshops
+ */
+-(NSArray*)getWorkshops;
+
+/**
+ Adds an other kind of event to the conference
+ @param event event to add
+ @returns true if the session has been added, false it had already been added
+ */
 -(BOOL)addOtherEvent:(News*)event;
+
+/**
+ Removes an event (excluding sessions or workshops) from the conference
+ @param eventID event's ID to remove
+ @returns true if the event has been removed, false if wasn't on the conference
+ */
 -(BOOL)removeOtherEvent:(int)eventID;
--(NSMutableArray*)getAllEvents;
+
+/**
+ Returns an non-mutable array with all the other events (non-sessions nor workshops) from the conference
+ @returns array of notifications
+ */
+-(NSArray*)getAllEvents;
+
+/**
+ Changes the logo path of the conference
+ @param lp new logo path
+ @returns
+ */
 -(void)changeLogoPath:(NSString*)lp;
+
+/**
+ Changes the conference name
+ @param n new conference name
+ @returns
+ */
 -(void)changeConferenceName:(NSString*)n;
--(BOOL)changeBluePrint:(int)floor file_path:(NSString*);
+
+/**
+ Changes the blue print of a given floor of the conference
+ @param floor floor number
+ @param file_path new file path for the floor
+ @returns true if the floor has been changed, false if otherwise
+ */
+-(BOOL)changeBluePrint:(int)floor file_path:(NSString*)fp;
+
+/**
+ Removes the blue print of a given floor of the conference
+ @param floor floor number
+ @returns true if the floor has been removed, false if the floor blueprint didn't exist
+ */
 -(BOOL)deleteBluePrint:(int)floor;
 
 @end
