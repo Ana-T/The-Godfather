@@ -13,6 +13,16 @@
 
 @interface Paper: NSObject
 
+@property (nonatomic) int paperID;
+@property (nonatomic) NSString* title;
+@property (nonatomic) NSArray* authors;
+@property (nonatomic) NSString* abstract;
+
+-(Paper*)initWithData: (int) pID title:(NSString*) t authors: (NSArray*) a abstract:(NSString*)ab;
+-(NSString*)getTitle;
+-(NSArray*)getAuthors;
+-(NSString?)getAbstract;
+
 @end
 
 #endif
