@@ -26,6 +26,8 @@
 		28068A2A17427C6C009C43DE /* iConfs3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28068A2917427C6C009C43DE /* iConfs3Tests.m */; };
 		705AD99C1742D9AD0069073A /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705AD99B1742D9AD0069073A /* MenuViewController.m */; };
 		705AD99F1742DA530069073A /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705AD99E1742DA530069073A /* PageViewController.m */; };
+		A0732FC51746521800DC24DE /* Conference.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC41746521800DC24DE /* Conference.m */; };
+		A0732FC81746538B00DC24DE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC71746538B00DC24DE /* News.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +80,10 @@
 		A058345417431AF200F17B2B /* WC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
 		A058345517431C8400F17B2B /* EatingArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EatingArea.h; sourceTree = "<group>"; };
 		A058345617431DCE00F17B2B /* Room.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
-		A058345717439E1900F17B2B /* Conference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Conference.h; sourceTree = "<group>"; };
+		A0732FC31746521800DC24DE /* Conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conference.h; path = ../Conference.h; sourceTree = "<group>"; };
+		A0732FC41746521800DC24DE /* Conference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Conference.m; path = ../Conference.m; sourceTree = "<group>"; };
+		A0732FC61746538B00DC24DE /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		A0732FC71746538B00DC24DE /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		A09E7DDD1745310F00886397 /* iConfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iConfs.h; sourceTree = "<group>"; };
 		A09E7DDE1745341100886397 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,8 +154,11 @@
 				28068A0D17427C6C009C43DE /* MainStoryboard_iPhone.storyboard */,
 				28068A1017427C6C009C43DE /* MainStoryboard_iPad.storyboard */,
 				28068A1317427C6C009C43DE /* ViewController.h */,
+				A0732FC31746521800DC24DE /* Conference.h */,
+				A0732FC41746521800DC24DE /* Conference.m */,
+				A0732FC61746538B00DC24DE /* News.h */,
+				A0732FC71746538B00DC24DE /* News.m */,
 				A058344B1742E33500F17B2B /* Person.h */,
-				A058345717439E1900F17B2B /* Conference.h */,
 				A09E7DDD1745310F00886397 /* iConfs.h */,
 				A09E7DDE1745341100886397 /* Notification.h */,
 				A058344C1742FC8200F17B2B /* Author.h */,
@@ -319,6 +327,8 @@
 				28068A1517427C6C009C43DE /* ViewController.m in Sources */,
 				705AD99C1742D9AD0069073A /* MenuViewController.m in Sources */,
 				705AD99F1742DA530069073A /* PageViewController.m in Sources */,
+				A0732FC51746521800DC24DE /* Conference.m in Sources */,
+				A0732FC81746538B00DC24DE /* News.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

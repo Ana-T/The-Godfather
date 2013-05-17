@@ -13,9 +13,9 @@
 
 @property (nonatomic) NSString* title;
 @property (nonatomic) NSString* text;
-@property (nonatomic) NSSDate* sentDate;
+@property (nonatomic) NSDate* sentDate;
 
--(Person*)initWithData: (NSString*) title text: (NSString?) t date:(NSDate*)date;
+-(Notification*)initWithData: (NSString*) title text: (NSString*) t date:(NSDate*)date;
 -(NSString*)getTitle;
 -(NSString*)getText;
 -(NSDate*)getDate;
