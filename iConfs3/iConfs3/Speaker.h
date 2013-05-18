@@ -8,6 +8,7 @@
 
 #ifndef iConfs3_Speaker_h
 #define iConfs3_Speaker_h
+#import "Person.h"
 
 @interface Speaker : Person
 /*{

@@ -8,6 +8,8 @@
 
 #ifndef iConfs3_Author_h
 #define iConfs3_Author_h
+#import "Person.h"
+#import "Paper.h"
 
 @interface Author : Person
 /*{
@@ -18,7 +20,7 @@
 
 -(Paper*)getPaper:(NSString*)paperID;
 -(NSArray*)getAllPapers;
--(BOOL)addPapper(Paper*);
+-(BOOL)addPapper:(Paper*)p;
 -(BOOL)removePaper:(NSString*)paperID;
 @end
 
