@@ -15,7 +15,7 @@
     self.confName = n;
     self.logo_path = lp;
     self.bluePrints = bp;
-    NSMutableDictionary *authors = [[NSMutableDictionary alloc] init];
+    //NSMutableDictionary *authors = [[NSMutableDictionary alloc] init];
     return self;
 }
 
