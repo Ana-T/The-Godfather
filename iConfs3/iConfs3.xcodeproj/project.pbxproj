@@ -26,7 +26,6 @@
 		28068A2A17427C6C009C43DE /* iConfs3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28068A2917427C6C009C43DE /* iConfs3Tests.m */; };
 		28CE74431747948B0045BEEA /* iConfsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE74421747948B0045BEEA /* iConfsScreen.m */; };
 		28CE744A174796EB0045BEEA /* botão iConfs.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE7449174796EB0045BEEA /* botão iConfs.png */; };
-		28CE744D174798170045BEEA /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE744C174798170045BEEA /* Bar.m */; };
 		28CE74511747A0860045BEEA /* NavigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE74501747A0860045BEEA /* NavigationBar.png */; };
 		A0732FC81746538B00DC24DE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC71746538B00DC24DE /* News.m */; };
 /* End PBXBuildFile section */
@@ -73,8 +72,6 @@
 		28CE74471747964F0045BEEA /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		28CE74481747964F0045BEEA /* Workshop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workshop.h; sourceTree = "<group>"; };
 		28CE7449174796EB0045BEEA /* botão iConfs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "botão iConfs.png"; path = "../../../../Documents/botão iConfs.png"; sourceTree = "<group>"; };
-		28CE744B174798170045BEEA /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
-		28CE744C174798170045BEEA /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
 		28CE74501747A0860045BEEA /* NavigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavigationBar.png; path = ../../../NavigationBar.png; sourceTree = "<group>"; };
 		A058344B1742E33500F17B2B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A058344C1742FC8200F17B2B /* Author.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
@@ -159,8 +156,6 @@
 				28CE74471747964F0045BEEA /* News.h */,
 				28CE74481747964F0045BEEA /* Workshop.h */,
 				28068A1017427C6C009C43DE /* MainStoryboard_iPad.storyboard */,
-				28CE744B174798170045BEEA /* Bar.h */,
-				28CE744C174798170045BEEA /* Bar.m */,
 				28CE7449174796EB0045BEEA /* botão iConfs.png */,
 				28CE74411747948B0045BEEA /* iConfsScreen.h */,
 				28CE74421747948B0045BEEA /* iConfsScreen.m */,
@@ -336,7 +331,6 @@
 				28068A1517427C6C009C43DE /* ViewController.m in Sources */,
 				A0732FC81746538B00DC24DE /* News.m in Sources */,
 				28CE74431747948B0045BEEA /* iConfsScreen.m in Sources */,
-				28CE744D174798170045BEEA /* Bar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

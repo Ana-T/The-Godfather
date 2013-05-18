@@ -9,6 +9,8 @@
 #import "iConfsScreen.h"
 
 @interface iConfsScreen ()
+
+
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
 
 @end
