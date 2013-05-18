@@ -75,7 +75,7 @@
 		28CE7449174796EB0045BEEA /* botão iConfs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "botão iConfs.png"; path = "../../../../Documents/botão iConfs.png"; sourceTree = "<group>"; };
 		28CE744B174798170045BEEA /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
 		28CE744C174798170045BEEA /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
-		28CE74501747A0860045BEEA /* NavigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavigationBar.png; path = ../../NavigationBar.png; sourceTree = "<group>"; };
+		28CE74501747A0860045BEEA /* NavigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavigationBar.png; path = ../../../NavigationBar.png; sourceTree = "<group>"; };
 		A058344B1742E33500F17B2B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A058344C1742FC8200F17B2B /* Author.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
 		A058344D1743038600F17B2B /* Organizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Organizer.h; sourceTree = "<group>"; };
@@ -119,7 +119,6 @@
 		280689E917427C6C009C43DE = {
 			isa = PBXGroup;
 			children = (
-				28CE74501747A0860045BEEA /* NavigationBar.png */,
 				280689FB17427C6C009C43DE /* iConfs3 */,
 				28068A2217427C6C009C43DE /* iConfs3Tests */,
 				280689F417427C6C009C43DE /* Frameworks */,
@@ -151,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				28068A0417427C6C009C43DE /* AppDelegate.h */,
+				28CE74501747A0860045BEEA /* NavigationBar.png */,
 				28068A0517427C6C009C43DE /* AppDelegate.m */,
 				28068A0D17427C6C009C43DE /* MainStoryboard_iPhone.storyboard */,
 				28CE74441747964F0045BEEA /* Conference.h */,
