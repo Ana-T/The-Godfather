@@ -215,7 +215,7 @@
  @param event event to add
  @returns true if the session has been added, false it had already been added
  */
--(BOOL)addOtherEvent:(News*)event;
+-(BOOL)addOtherEvent:(Event*)event;
 
 /**
  Removes an event (excluding sessions or workshops) from the conference

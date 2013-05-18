@@ -26,6 +26,8 @@
 		28068A2A17427C6C009C43DE /* iConfs3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28068A2917427C6C009C43DE /* iConfs3Tests.m */; };
 		705AD99C1742D9AD0069073A /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705AD99B1742D9AD0069073A /* MenuViewController.m */; };
 		705AD99F1742DA530069073A /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705AD99E1742DA530069073A /* PageViewController.m */; };
+		A04AC190174733AF00B7C988 /* Workshop.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AC18F174733AF00B7C988 /* Workshop.m */; };
+		A04AC1931747359900B7C988 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = A04AC1921747359900B7C988 /* Event.m */; };
 		A0732FC51746521800DC24DE /* Conference.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC41746521800DC24DE /* Conference.m */; };
 		A0732FC81746538B00DC24DE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC71746538B00DC24DE /* News.m */; };
 /* End PBXBuildFile section */
@@ -68,14 +70,16 @@
 		705AD99B1742D9AD0069073A /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		705AD99D1742DA530069073A /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
 		705AD99E1742DA530069073A /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		A04AC18E174733AF00B7C988 /* Workshop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Workshop.h; path = ../Workshop.h; sourceTree = "<group>"; };
+		A04AC18F174733AF00B7C988 /* Workshop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Workshop.m; path = ../Workshop.m; sourceTree = "<group>"; };
+		A04AC1911747359900B7C988 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = ../Event.h; sourceTree = "<group>"; };
+		A04AC1921747359900B7C988 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = ../Event.m; sourceTree = "<group>"; };
 		A058344B1742E33500F17B2B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A058344C1742FC8200F17B2B /* Author.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
 		A058344D1743038600F17B2B /* Organizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Organizer.h; sourceTree = "<group>"; };
 		A058344E174305F000F17B2B /* Speaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speaker.h; sourceTree = "<group>"; };
 		A058344F174306E000F17B2B /* Paper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Paper.h; sourceTree = "<group>"; };
-		A0583450174307DC00F17B2B /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		A0583451174316AE00F17B2B /* Session.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
-		A0583452174317A900F17B2B /* Workshop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Workshop.h; sourceTree = "<group>"; };
 		A05834531743184000F17B2B /* Place.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
 		A058345417431AF200F17B2B /* WC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
 		A058345517431C8400F17B2B /* EatingArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EatingArea.h; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 		A0732FC31746521800DC24DE /* Conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conference.h; path = ../Conference.h; sourceTree = "<group>"; };
 		A0732FC41746521800DC24DE /* Conference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Conference.m; path = ../Conference.m; sourceTree = "<group>"; };
 		A0732FC71746538B00DC24DE /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		A0774AF91747267300CA1515 /* News.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = News.h; path = ../News.h; sourceTree = "<group>"; };
 		A09E7DDD1745310F00886397 /* iConfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iConfs.h; sourceTree = "<group>"; };
 		A09E7DDE1745341100886397 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +160,7 @@
 				28068A1317427C6C009C43DE /* ViewController.h */,
 				A0732FC31746521800DC24DE /* Conference.h */,
 				A0732FC41746521800DC24DE /* Conference.m */,
+				A0774AF91747267300CA1515 /* News.h */,
 				A0732FC71746538B00DC24DE /* News.m */,
 				A058344B1742E33500F17B2B /* Person.h */,
 				A09E7DDD1745310F00886397 /* iConfs.h */,
@@ -163,9 +169,11 @@
 				A058344D1743038600F17B2B /* Organizer.h */,
 				A058344E174305F000F17B2B /* Speaker.h */,
 				A058344F174306E000F17B2B /* Paper.h */,
-				A0583450174307DC00F17B2B /* Event.h */,
+				A04AC1911747359900B7C988 /* Event.h */,
+				A04AC1921747359900B7C988 /* Event.m */,
+				A04AC18E174733AF00B7C988 /* Workshop.h */,
+				A04AC18F174733AF00B7C988 /* Workshop.m */,
 				A0583451174316AE00F17B2B /* Session.h */,
-				A0583452174317A900F17B2B /* Workshop.h */,
 				A05834531743184000F17B2B /* Place.h */,
 				A058345417431AF200F17B2B /* WC.h */,
 				A058345517431C8400F17B2B /* EatingArea.h */,
@@ -327,6 +335,8 @@
 				705AD99F1742DA530069073A /* PageViewController.m in Sources */,
 				A0732FC51746521800DC24DE /* Conference.m in Sources */,
 				A0732FC81746538B00DC24DE /* News.m in Sources */,
+				A04AC190174733AF00B7C988 /* Workshop.m in Sources */,
+				A04AC1931747359900B7C988 /* Event.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

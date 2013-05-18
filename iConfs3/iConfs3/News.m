@@ -10,4 +10,21 @@
 
 @implementation News
 
+-(News*)initWithData: (NSString*) t text: (NSString*) txt date:(NSDate*)date{
+    self.title = t;
+    self.text = txt;
+    self.sentDate = date;
+    return self;
+}
+-(NSString*)getTitle{
+    return self.title;
+}
+-(NSString*)getText{
+    return self.text;
+}
+-(NSDate*)getDate{
+    return self.sentDate;
+}
+
 @end
+

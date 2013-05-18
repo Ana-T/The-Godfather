@@ -21,7 +21,7 @@
 -(Paper*)initWithData: (int) pID title:(NSString*) t authors: (NSArray*) a abstract:(NSString*)ab;
 -(NSString*)getTitle;
 -(NSArray*)getAuthors;
--(NSString?)getAbstract;
+-(NSString*)getAbstract;
 
 @end
 

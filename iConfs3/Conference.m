@@ -21,7 +21,7 @@
 
 -(BOOL)addAuthor:(Author*)author{
     
-    NSNumber *value = [self.authors objectForKey:author.personID];
+    NSNumber *value = [self.authors objectForKey:[NSNumber numberWithInteger: author.personID]];
     
     if (value)
     {
@@ -29,7 +29,7 @@
     }
     else
     {
-        [self.authors setObject:author forKey:author.personID];
+        [self.authors setObject:author forKey: [NSNumber numberWithInteger: author.personID]];
         return true;
     }
 }
@@ -37,11 +37,11 @@
 
 -(BOOL)removePerson:(int)personID{
     
-    NSNumber *value = [self.authors objectForKey:personID];
+    NSNumber *value = [self.authors objectForKey:[NSNumber numberWithInteger: personID]];
     
     if (value)
     {
-        [self.authors removeObjectForKey:personID];
+        [self.authors removeObjectForKey:[NSNumber numberWithInteger: personID]];
         return true;
     }
     else
@@ -56,7 +56,7 @@
 
 -(BOOL)addOrganizer:(Organizer*)organizer{
     
-    NSNumber *value = [self.organizers objectForKey:organizer.personID];
+    NSNumber *value = [self.organizers objectForKey:[NSNumber numberWithInteger: organizer.personID]];
     
     if (value)
     {
@@ -64,18 +64,18 @@
     }
     else
     {
-        [self.organizers setObject:organizer forKey:organizer.personID];
+        [self.organizers setObject:organizer forKey:[NSNumber numberWithInteger: organizer.personID]];
         return true;
     }
 }
 
 -(BOOL)removeOrganizer:(int)personID{
     
-    NSNumber *value = [self.organizers objectForKey:personID];
+    NSNumber *value = [self.organizers objectForKey:[NSNumber numberWithInteger: personID]];
     
     if (value)
     {
-        [self.organizers removeObjectForKey:personID];
+        [self.organizers removeObjectForKey:[NSNumber numberWithInteger: personID]];
         return true;
     }
     else
@@ -90,7 +90,7 @@
 
 -(BOOL)addSpeaker:(Speaker*)speaker{
     
-    NSNumber *value = [self.speakers objectForKey:speaker.personID];
+    NSNumber *value = [self.speakers objectForKey:[NSNumber numberWithInteger: speaker.personID]];
     
     if (value)
     {
@@ -98,7 +98,7 @@
     }
     else
     {
-        [self.speakers setObject:speakerr forKey:speaker.personID];
+        [self.speakers setObject:speaker forKey:[NSNumber numberWithInteger: speaker.personID]];
         return true;
     }
     
@@ -106,11 +106,11 @@
 
 -(BOOL)removeSpeaker:(int)personID{
     
-    NSNumber *value = [self.speakers objectForKey:personID];
+    NSNumber *value = [self.speakers objectForKey:[NSNumber numberWithInteger: personID]];
     
     if (value)
     {
-        [self.speakers removeObjectForKey:personID];
+        [self.speakers removeObjectForKey:[NSNumber numberWithInteger: personID]];
         return true;
     }
     else
@@ -126,8 +126,8 @@
 
 -(BOOL)addNews:(News*)n{
     BOOL isHere = false;
-    for (i=0; i<[self.news count]; i++) {
-        if ([self.news objectAtIndex:i].getTitle isEqual: n.getTitle] && [self.news objectAtIndex:i].getDate isEqual: n.getDate]){
+    for (int i=0; i<[self.news count]; i++) {
+        if ([((News*)[self.news objectAtIndex:i]).getTitle isEqual: n.getTitle] && [((News*)[self.news objectAtIndex:i]).getDate isEqual: n.getDate]){
             isHere = true;
             break;
         }
@@ -145,8 +145,8 @@
 
 -(BOOL)addNotification:(Notification*)notification{
     BOOL isHere = false;
-    for (i=0; i<[self.news count]; i++) {
-        if ([self.notifications objectAtIndex:i].getTitle isEqual: notification.getTitle] && [self.notifications objectAtIndex:i].getDate isEqual: notification.getDate]){
+    for (int i=0; i<[self.news count]; i++) {
+        if ([((Notification*)[self.notifications objectAtIndex:i]).getTitle isEqual: notification.getTitle] && [((Notification*)[self.notifications objectAtIndex:i]).getDate isEqual: notification.getDate]){
             isHere = true;
             break;
         }
@@ -164,8 +164,8 @@
 
 -(BOOL)addSessions:(Session*)session{
     BOOL isHere = false;
-    for (i=0; i<[self.news count]; i++) {
-        if ([self.sessions objectAtIndex:i].getID == session.getID]){
+    for (int i=0; i<[self.news count]; i++) {
+        if (((Session*)[self.sessions objectAtIndex:i]).getID == session.getID){
             isHere = true;
             break;
         }
@@ -179,16 +179,21 @@
 
 -(BOOL)removeSession:(int)eventID{
     BOOL isHere = false;
-    NSObject toRemove;
-    for (i=0; i<[self.news count]; i++) {
-        if ([self.sessions objectAtIndex:i].getID == eventID]){
+    //NSObject toRemove;
+    int index;
+    for (int i=0; i<[self.news count]; i++) {
+        if (((Session*)[self.sessions objectAtIndex:i]).getID == eventID){
             isHere = true;
-            toRemove = [self.sessions objectAtIndex:i];
+            //toRemove = [self.sessions objectAtIndex:i];
+            index = i;
             break;
         }
     }
     if(isHere == true){
-        [self.sessions removeObject: toRemove];
+        //[self.sessions removeObject: toRemove];
+        NSMutableIndexSet *mutableIndexSet = [[NSMutableIndexSet alloc] init];
+        [mutableIndexSet addIndex:index];
+        [self.sessions removeObjectsAtIndexes:mutableIndexSet];
         return true;
     }
     else return false;
@@ -200,8 +205,8 @@
 
 -(BOOL)addWorkshop:(Workshop*)workshop{
     BOOL isHere = false;
-    for (i=0; i<[self.news count]; i++) {
-        if ([self.workshops objectAtIndex:i].getID == workshop.getID]){
+    for (int i=0; i<[self.news count]; i++) {
+        if (((Workshop*)[self.workshops objectAtIndex:i]).getID == workshop.getID){
             isHere = true;
             break;
         }
@@ -215,16 +220,21 @@
 
 -(BOOL)removeWorkshop:(int)eventID{
     BOOL isHere = false;
-    NSObject toRemove;
-    for (i=0; i<[self.news count]; i++) {
-        if ([self.workshops objectAtIndex:i].getID == eventID]){
+    //NSObject toRemove;
+    int index;
+    for (int i=0; i<[self.news count]; i++) {
+        if (((Workshop*)[self.workshops objectAtIndex:i]).getID == eventID){
             isHere = true;
-            toRemove = [self.workshops objectAtIndex:i];
+            //toRemove = [self.sessions objectAtIndex:i];
+            index = i;
             break;
         }
     }
     if(isHere == true){
-        [self.workshops removeObject: toRemove];
+        //[self.sessions removeObject: toRemove];
+        NSMutableIndexSet *mutableIndexSet = [[NSMutableIndexSet alloc] init];
+        [mutableIndexSet addIndex:index];
+        [self.workshops removeObjectsAtIndexes:mutableIndexSet];
         return true;
     }
     else return false;
@@ -234,10 +244,10 @@
     return [self.workshops copy];
 }
 
--(BOOL)addOtherEvent:(News*)event{
+-(BOOL)addOtherEvent:(Event*)event{
     BOOL isHere = false;
-    for (i=0; i<[self.news count]; i++) {
-        if ([self.eventsList objectAtIndex:i].getID == event.getID]){
+    for (int i=0; i<[self.news count]; i++) {
+        if (((Event*)[self.eventsList objectAtIndex:i]).getID == event.getID){
             isHere = true;
             break;
         }
@@ -251,16 +261,21 @@
 
 -(BOOL)removeOtherEvent:(int)eventID{
     BOOL isHere = false;
-    NSObject toRemove;
-    for (i=0; i<[self.news count]; i++) {
-        if ([self.eventsList objectAtIndex:i].getID == eventID]){
+    //NSObject toRemove;
+    int index;
+    for (int i=0; i<[self.news count]; i++) {
+        if (((Event*)[self.eventsList objectAtIndex:i]).getID == eventID){
             isHere = true;
-            toRemove = [self.eventsList objectAtIndex:i];
+            //toRemove = [self.sessions objectAtIndex:i];
+            index = i;
             break;
         }
     }
     if(isHere == true){
-        [self.eventsList removeObject: toRemove];
+        //[self.sessions removeObject: toRemove];
+        NSMutableIndexSet *mutableIndexSet = [[NSMutableIndexSet alloc] init];
+        [mutableIndexSet addIndex:index];
+        [self.eventsList removeObjectsAtIndexes:mutableIndexSet];
         return true;
     }
     else return false;
@@ -279,15 +294,15 @@
 }
 
 -(BOOL)changeBluePrint:(int)floor file_path:(NSString*)fp{
-    [self.bluePrints setObject:fp forKey:floor];
+    [self.bluePrints setObject:fp forKey:[NSNumber numberWithInteger: floor]];
 }
 
 -(BOOL)deleteBluePrint:(int)floor{
-    NSNumber *value = [self.bluePrints objectForKey:floor];
+    NSNumber *value = [self.bluePrints objectForKey:[NSNumber numberWithInteger: floor]];
     
     if (value)
     {
-        [self.bluePrints removeObjectForKey:floor];
+        [self.bluePrints removeObjectForKey:[NSNumber numberWithInteger: floor]];
         return true;
     }
     else
@@ -295,6 +310,5 @@
         return false;
     }
 }
-
 
 @end

@@ -8,6 +8,7 @@
 
 #ifndef iConfs3_Session_h
 #define iConfs3_Session_h
+#import "Event.h"
 
 @interface Session : Event
 /*{

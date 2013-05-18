@@ -2,28 +2,25 @@
 //  Event.h
 //  iConfs3
 //
-//  Created by Eduardo Joel Pereira Beja Martins on 15/05/13.
+//  Created by Eduardo Joel Pereira Beja Martins on 18/05/13.
 //  Copyright (c) 2013 G10PI. All rights reserved.
 //
 
-#ifndef iConfs3_Event_h
-#define iConfs3_Event_h
-
-#import <Foundation/NSObject.h>
+#import <Foundation/Foundation.h>
 #import "Speaker.h"
 
-@interface Event: NSObject
+@interface Event : NSObject
 /*{
-    @protected
-    NSDate *_date;
-    NSString *_title;
-    NSString *_theme;
-    Speaker *_speaker;
-    BOOL userVoted;
-    NSInteger vote;
-    NSInteger rating;
-    NSInteger eventID;
-}*/
+ @protected
+ NSDate *_date;
+ NSString *_title;
+ NSString *_theme;
+ Speaker *_speaker;
+ BOOL userVoted;
+ NSInteger vote;
+ NSInteger rating;
+ NSInteger eventID;
+ }*/
 @property (nonatomic) NSDate* date;
 @property (nonatomic) NSString* title;
 @property (nonatomic) NSString* theme;
@@ -46,6 +43,5 @@
 -(void)getRate;
 -(NSDate*)getDate;
 -(void)setDate:(NSDate*)d;
-@end
 
-#endif
+@end
