@@ -66,6 +66,11 @@
 		28068A2917427C6C009C43DE /* iConfs3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iConfs3Tests.m; sourceTree = "<group>"; };
 		28CE74411747948B0045BEEA /* iConfsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iConfsScreen.h; sourceTree = "<group>"; };
 		28CE74421747948B0045BEEA /* iConfsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iConfsScreen.m; sourceTree = "<group>"; };
+		28CE74441747964F0045BEEA /* Conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conference.h; sourceTree = "<group>"; };
+		28CE74451747964F0045BEEA /* Conferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conferences.h; sourceTree = "<group>"; };
+		28CE74461747964F0045BEEA /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		28CE74471747964F0045BEEA /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		28CE74481747964F0045BEEA /* Workshop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workshop.h; sourceTree = "<group>"; };
 		705AD99A1742D9AD0069073A /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		705AD99B1742D9AD0069073A /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		705AD99D1742DA530069073A /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
@@ -150,6 +155,11 @@
 				28068A0417427C6C009C43DE /* AppDelegate.h */,
 				28068A0517427C6C009C43DE /* AppDelegate.m */,
 				28068A0D17427C6C009C43DE /* MainStoryboard_iPhone.storyboard */,
+				28CE74441747964F0045BEEA /* Conference.h */,
+				28CE74451747964F0045BEEA /* Conferences.h */,
+				28CE74461747964F0045BEEA /* Event.h */,
+				28CE74471747964F0045BEEA /* News.h */,
+				28CE74481747964F0045BEEA /* Workshop.h */,
 				28068A1017427C6C009C43DE /* MainStoryboard_iPad.storyboard */,
 				28CE74411747948B0045BEEA /* iConfsScreen.h */,
 				28CE74421747948B0045BEEA /* iConfsScreen.m */,
