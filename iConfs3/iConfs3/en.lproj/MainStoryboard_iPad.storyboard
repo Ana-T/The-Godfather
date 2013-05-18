@@ -254,7 +254,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="botão iConfs.png" width="16" height="16"/>
+        <image name="botão iConfs.png" width="766" height="20"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
