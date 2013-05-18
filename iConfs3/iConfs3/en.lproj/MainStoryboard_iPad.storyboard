@@ -33,7 +33,7 @@
             </objects>
             <point key="canvasLocation" x="-1597" y="-297"/>
         </scene>
-        <!--I Confs Screen-->
+        <!--I Confs Screen - iConfs-->
         <scene sceneID="PoE-5u-c2o">
             <objects>
                 <viewController id="1ca-pF-QVl" customClass="iConfsScreen" sceneMemberID="viewController">
@@ -44,8 +44,8 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" indicatorStyle="black" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3Ob-k5-paR">
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="700" id="5fM-NU-pWN"/>
-                                    <constraint firstAttribute="height" constant="300" id="KlM-ui-D4r"/>
+                                    <constraint firstAttribute="height" constant="116" id="EYR-Xp-bf2"/>
+                                    <constraint firstAttribute="width" constant="679" id="Sr9-hs-UTr"/>
                                 </constraints>
                                 <collectionViewLayout key="collectionViewLayout" id="xjw-HI-X9F"/>
                                 <cells>
@@ -60,7 +60,7 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="W1C-3m-t9v">
-                                        <rect key="frame" x="65" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="63" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -70,7 +70,7 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XSO-A1-f8n">
-                                        <rect key="frame" x="130" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="126" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -80,7 +80,7 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fyj-xY-kl5">
-                                        <rect key="frame" x="195" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="189" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -90,7 +90,7 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="VRG-Mp-Uj8">
-                                        <rect key="frame" x="260" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="252" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -100,7 +100,7 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="8O9-yo-qPk">
-                                        <rect key="frame" x="325" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="315" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -110,7 +110,7 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Lje-1Y-3o5">
-                                        <rect key="frame" x="390" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="377" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -120,7 +120,7 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="37p-Wt-P2T">
-                                        <rect key="frame" x="455" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="440" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -130,7 +130,7 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="f4s-5F-zFr">
-                                        <rect key="frame" x="520" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="503" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -141,23 +141,15 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="YzY-0H-2aw">
-                                <items>
-                                    <navigationItem title="iConfs" id="xcC-Dx-DqI"/>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="YzY-0H-2aw" firstAttribute="top" secondItem="jkN-ws-QcF" secondAttribute="top" type="default" id="D6w-ao-WCk"/>
-                            <constraint firstItem="3Ob-k5-paR" firstAttribute="top" secondItem="jkN-ws-QcF" secondAttribute="top" constant="183" id="F5Q-6O-BuN"/>
-                            <constraint firstItem="YzY-0H-2aw" firstAttribute="trailing" secondItem="jkN-ws-QcF" secondAttribute="trailing" type="default" id="YpC-p9-3Vt"/>
-                            <constraint firstAttribute="trailing" secondItem="3Ob-k5-paR" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="lTU-QO-AZV"/>
-                            <constraint firstItem="YzY-0H-2aw" firstAttribute="leading" secondItem="jkN-ws-QcF" secondAttribute="leading" type="default" id="qVf-F1-w1P"/>
+                            <constraint firstItem="3Ob-k5-paR" firstAttribute="leading" secondItem="jkN-ws-QcF" secondAttribute="leading" constant="95" id="hHA-Ot-SVv"/>
+                            <constraint firstItem="3Ob-k5-paR" firstAttribute="top" secondItem="jkN-ws-QcF" secondAttribute="top" constant="62" id="x10-EA-qbP"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="Pqx-Wc-xxF"/>
+                    <navigationItem key="navigationItem" title="iConfs" id="Pqx-Wc-xxF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hIO-pU-k2z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -178,7 +170,7 @@
             </objects>
             <point key="canvasLocation" x="-558" y="252"/>
         </scene>
-        <!--View Controller - iConfs-->
+        <!--View Controller-->
         <scene sceneID="4OR-VS-XnV">
             <objects>
                 <viewController id="CyA-br-nYT" customClass="ViewController" sceneMemberID="viewController">
@@ -189,7 +181,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" sectionIndexMinimumDisplayRowCount="1" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="aa4-CK-qNM">
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="518" id="40t-sz-ouu"/>
+                                    <constraint firstAttribute="height" constant="485" id="X7f-Hc-Gox"/>
                                 </constraints>
                                 <color key="separatorColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <prototypes>
@@ -231,51 +223,40 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="CgK-ha-a3a">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="6mS-TU-MSY"/>
+                                </constraints>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="7nF-dB-qF2" firstAttribute="top" secondItem="cJb-dm-sOa" secondAttribute="top" type="default" id="1lf-3O-xjV"/>
                             <constraint firstItem="aa4-CK-qNM" firstAttribute="leading" secondItem="cJb-dm-sOa" secondAttribute="leading" type="default" id="7tJ-wR-fAw"/>
+                            <constraint firstItem="CgK-ha-a3a" firstAttribute="trailing" secondItem="cJb-dm-sOa" secondAttribute="trailing" type="default" id="910-1o-AqO"/>
                             <constraint firstItem="7nF-dB-qF2" firstAttribute="leading" secondItem="cJb-dm-sOa" secondAttribute="leading" type="default" id="McW-01-Arg"/>
                             <constraint firstItem="ZY7-eC-2lD" firstAttribute="leading" secondItem="r2b-bw-vkM" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="QbD-Ac-CAL"/>
                             <constraint firstItem="aa4-CK-qNM" firstAttribute="top" secondItem="cJb-dm-sOa" secondAttribute="top" constant="41" id="R0U-mi-QxH"/>
                             <constraint firstAttribute="bottom" secondItem="ZY7-eC-2lD" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="a2v-mt-wUh"/>
                             <constraint firstItem="r2b-bw-vkM" firstAttribute="leading" secondItem="cJb-dm-sOa" secondAttribute="leading" constant="94" id="f3X-8V-fiF"/>
+                            <constraint firstItem="CgK-ha-a3a" firstAttribute="leading" secondItem="cJb-dm-sOa" secondAttribute="leading" type="default" id="gZL-2a-kFj"/>
                             <constraint firstItem="aa4-CK-qNM" firstAttribute="trailing" secondItem="cJb-dm-sOa" secondAttribute="trailing" type="default" id="l6B-C3-pCG"/>
                             <constraint firstItem="r2b-bw-vkM" firstAttribute="centerY" secondItem="ZY7-eC-2lD" secondAttribute="centerY" type="default" id="tgY-3Z-rAn"/>
+                            <constraint firstAttribute="bottom" secondItem="CgK-ha-a3a" secondAttribute="bottom" constant="63" id="w5K-45-gC9"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="iConfs" id="hHg-SS-Vh9"/>
+                    <navigationItem key="navigationItem" id="hHg-SS-Vh9"/>
                     <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0GR-dB-1da" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749" y="-1077"/>
+            <point key="canvasLocation" x="559" y="-1082"/>
         </scene>
     </scenes>
     <resources>
         <image name="botão iConfs.png" width="766" height="20"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="UICollectionReusableView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionReusableView.h"/>
-        </class>
-        <class className="UICollectionViewCell" superclassName="UICollectionReusableView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewCell.h"/>
-        </class>
-        <class className="UICollectionViewLayout" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewLayout.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-        </class>
-        <class className="iConfsScreen" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/iConfsScreen.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

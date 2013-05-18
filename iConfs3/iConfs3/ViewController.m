@@ -36,6 +36,10 @@
     
     
      [super viewDidLoad];
+    UINavigationBar *navBar = [[self navigationController] navigationBar];
+    UIImage *backgroundImage = [UIImage imageNamed:@"NavigationBar"];
+    [navBar setBackgroundImage:backgroundImage forBarMetrics:UIBarMetricsDefault];
+
 	// Do any additional setup after loading the view, typically from a nib.
     
 }

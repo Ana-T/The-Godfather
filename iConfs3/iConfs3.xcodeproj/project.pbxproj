@@ -27,6 +27,7 @@
 		28CE74431747948B0045BEEA /* iConfsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE74421747948B0045BEEA /* iConfsScreen.m */; };
 		28CE744A174796EB0045BEEA /* botão iConfs.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE7449174796EB0045BEEA /* botão iConfs.png */; };
 		28CE744D174798170045BEEA /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE744C174798170045BEEA /* Bar.m */; };
+		28CE74511747A0860045BEEA /* NavigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CE74501747A0860045BEEA /* NavigationBar.png */; };
 		A0732FC81746538B00DC24DE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC71746538B00DC24DE /* News.m */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		28CE7449174796EB0045BEEA /* botão iConfs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "botão iConfs.png"; path = "../../../../Documents/botão iConfs.png"; sourceTree = "<group>"; };
 		28CE744B174798170045BEEA /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
 		28CE744C174798170045BEEA /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		28CE74501747A0860045BEEA /* NavigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavigationBar.png; path = ../../NavigationBar.png; sourceTree = "<group>"; };
 		A058344B1742E33500F17B2B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A058344C1742FC8200F17B2B /* Author.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
 		A058344D1743038600F17B2B /* Organizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Organizer.h; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		280689E917427C6C009C43DE = {
 			isa = PBXGroup;
 			children = (
+				28CE74501747A0860045BEEA /* NavigationBar.png */,
 				280689FB17427C6C009C43DE /* iConfs3 */,
 				28068A2217427C6C009C43DE /* iConfs3Tests */,
 				280689F417427C6C009C43DE /* Frameworks */,
@@ -293,6 +296,7 @@
 				28068A0F17427C6C009C43DE /* MainStoryboard_iPhone.storyboard in Resources */,
 				28068A1217427C6C009C43DE /* MainStoryboard_iPad.storyboard in Resources */,
 				28CE744A174796EB0045BEEA /* botão iConfs.png in Resources */,
+				28CE74511747A0860045BEEA /* NavigationBar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
