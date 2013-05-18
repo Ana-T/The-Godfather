@@ -82,7 +82,6 @@
 		A058345617431DCE00F17B2B /* Room.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 		A0732FC31746521800DC24DE /* Conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conference.h; path = ../Conference.h; sourceTree = "<group>"; };
 		A0732FC41746521800DC24DE /* Conference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Conference.m; path = ../Conference.m; sourceTree = "<group>"; };
-		A0732FC61746538B00DC24DE /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		A0732FC71746538B00DC24DE /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		A09E7DDD1745310F00886397 /* iConfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iConfs.h; sourceTree = "<group>"; };
 		A09E7DDE1745341100886397 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
@@ -156,7 +155,6 @@
 				28068A1317427C6C009C43DE /* ViewController.h */,
 				A0732FC31746521800DC24DE /* Conference.h */,
 				A0732FC41746521800DC24DE /* Conference.m */,
-				A0732FC61746538B00DC24DE /* News.h */,
 				A0732FC71746538B00DC24DE /* News.m */,
 				A058344B1742E33500F17B2B /* Person.h */,
 				A09E7DDD1745310F00886397 /* iConfs.h */,

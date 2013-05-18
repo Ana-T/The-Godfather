@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface News : NSObject
+{
+    @protected
+    NSString* title;
+    NSString* text;
+    NSDate* sentDate;
+}
 @property (nonatomic) NSString* title;
 @property (nonatomic) NSString* text;
 @property (nonatomic) NSDate* sentDate;
