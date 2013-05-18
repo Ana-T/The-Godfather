@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  iConfs3
+//  Menu2
 //
-//  Created by Ana T on 14/05/13.
-//  Copyright (c) 2013 G10PI. All rights reserved.
+//  Created by Ana T on 17/05/13.
+//  Copyright (c) 2013 Ana T. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -15,8 +15,6 @@
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     splitViewController.delegate = (id)navigationController.topViewController;
-    return YES;
-    // Override point for customization after application launch.
     return YES;
 }
 							

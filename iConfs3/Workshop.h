@@ -9,14 +9,14 @@
 #import "Event.h"
 #import "Speaker.h"
 
-@interface Workshop : Event
-/*{
- @protected
- (NSString*) needs;
- }*/
-@property (nonatomic) NSString* needs;
-
--(Workshop*)initWithDataAndSpeaker:(int)eID date:(NSDate*)d title:(NSString*)t theme:(NSString*)th speaker:(Speaker*)s needs:(NSString*)n;
--(NSString*)getNeeds;
-
-@end
+//@interface Workshop : Event
+///*{
+// @protected
+// (NSString*) needs;
+// }*/
+//@property (nonatomic) NSString* needs;
+//
+//-(Workshop*)initWithDataAndSpeaker:(int)eID date:(NSDate*)d title:(NSString*)t theme:(NSString*)th speaker:(Speaker*)s needs:(NSString*)n;
+//-(NSString*)getNeeds;
+//
+//@end

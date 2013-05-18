@@ -1,13 +1,29 @@
 //
 //  ViewController.h
-//  iConfs3
+//  Menu2
 //
-//  Created by Ana T on 14/05/13.
-//  Copyright (c) 2013 G10PI. All rights reserved.
+//  Created by Ana T on 17/05/13.
+//  Copyright (c) 2013 Ana T. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource>{
 
-@end
+    
+        NSArray *optionsIConfs;
+        NSArray *optionsConference;
+        bool firstMenu;
+    }
+    
+    //@property (strong, nonatomic) IBOutlet UITableView *tabela;
+    
+
+    
+    @property (nonatomic,retain)    NSArray *optionsIConfs;
+    @property (nonatomic,retain)    NSArray *optionsConference;
+    @property (nonatomic,readwrite) bool firsMenu;
+    
+    
+    @end
+
