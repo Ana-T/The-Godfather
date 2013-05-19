@@ -40,6 +40,8 @@
     UIImage *backgroundImage = [UIImage imageNamed:@"NavigationBar"];
     [navBar setBackgroundImage:backgroundImage forBarMetrics:UIBarMetricsDefault];
 
+//    self.navController.navigationBar.tintColor = [UIColor colorWithRed:20/255 green:44/255 blue:86/255 alpha:1];
+
 	// Do any additional setup after loading the view, typically from a nib.
     
 }
