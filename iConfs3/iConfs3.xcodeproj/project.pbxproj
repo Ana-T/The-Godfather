@@ -24,6 +24,8 @@
 		28068A1F17427C6C009C43DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280689F717427C6C009C43DE /* Foundation.framework */; };
 		28068A2717427C6C009C43DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28068A2517427C6C009C43DE /* InfoPlist.strings */; };
 		28068A2A17427C6C009C43DE /* iConfs3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28068A2917427C6C009C43DE /* iConfs3Tests.m */; };
+		28755992174966C7006431DB /* botão iConfs.png in Resources */ = {isa = PBXBuildFile; fileRef = 28755990174966C7006431DB /* botão iConfs.png */; };
+		28755993174966C7006431DB /* pulpito.png in Resources */ = {isa = PBXBuildFile; fileRef = 28755991174966C7006431DB /* pulpito.png */; };
 		28CE74431747948B0045BEEA /* iConfsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE74421747948B0045BEEA /* iConfsScreen.m */; };
 		A0732FC81746538B00DC24DE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC71746538B00DC24DE /* News.m */; };
 /* End PBXBuildFile section */
@@ -62,6 +64,8 @@
 		28068A2617427C6C009C43DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28068A2817427C6C009C43DE /* iConfs3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iConfs3Tests.h; sourceTree = "<group>"; };
 		28068A2917427C6C009C43DE /* iConfs3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iConfs3Tests.m; sourceTree = "<group>"; };
+		28755990174966C7006431DB /* botão iConfs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "botão iConfs.png"; path = "../Recursos/botão iConfs.png"; sourceTree = "<group>"; };
+		28755991174966C7006431DB /* pulpito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pulpito.png; path = ../Recursos/pulpito.png; sourceTree = "<group>"; };
 		28CE74411747948B0045BEEA /* iConfsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iConfsScreen.h; sourceTree = "<group>"; };
 		28CE74421747948B0045BEEA /* iConfsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iConfsScreen.m; sourceTree = "<group>"; };
 		28CE74441747964F0045BEEA /* Conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conference.h; sourceTree = "<group>"; };
@@ -177,6 +181,8 @@
 		280689FC17427C6C009C43DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28755990174966C7006431DB /* botão iConfs.png */,
+				28755991174966C7006431DB /* pulpito.png */,
 				280689FD17427C6C009C43DE /* iConfs3-Info.plist */,
 				280689FE17427C6C009C43DE /* InfoPlist.strings */,
 				28068A0117427C6C009C43DE /* main.m */,
@@ -284,6 +290,8 @@
 				28068A0C17427C6C009C43DE /* Default-568h@2x.png in Resources */,
 				28068A0F17427C6C009C43DE /* MainStoryboard_iPhone.storyboard in Resources */,
 				28068A1217427C6C009C43DE /* MainStoryboard_iPad.storyboard in Resources */,
+				28755992174966C7006431DB /* botão iConfs.png in Resources */,
+				28755993174966C7006431DB /* pulpito.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
