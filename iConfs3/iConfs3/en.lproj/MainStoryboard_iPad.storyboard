@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="9nl-Dq-4Fw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C54" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="9nl-Dq-4Fw">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -93,7 +93,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hIO-pU-k2z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="775" y="292"/>
+            <point key="canvasLocation" x="389" y="280"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rvz-q1-Gdj">
@@ -108,9 +108,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ktq-NB-Qz5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-558" y="252"/>
+            <point key="canvasLocation" x="-613" y="280"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - iConfs-->
         <scene sceneID="4OR-VS-XnV">
             <objects>
                 <viewController id="CyA-br-nYT" customClass="ViewController" sceneMemberID="viewController">
@@ -165,12 +165,14 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="hHg-SS-Vh9"/>
+                    <navigationItem key="navigationItem" title="iConfs" id="hHg-SS-Vh9">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="UB8-YZ-qYH"/>
+                    </navigationItem>
                     <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0GR-dB-1da" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="559" y="-1082"/>
+            <point key="canvasLocation" x="-165" y="-765"/>
         </scene>
     </scenes>
     <resources>

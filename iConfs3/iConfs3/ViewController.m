@@ -32,7 +32,7 @@
     optionsIConfs=[[NSArray alloc] initWithObjects:@"Add Conference",@"My Conferences", @"Personal Agenda",nil];
     
     
-    optionsConference=[[NSArray alloc] initWithObjects:@"Sessions",@"Speakers",@"Locations",@"Where am I?",@"Shedule",@"Rating", nil];
+    optionsConference=[[NSArray alloc] initWithObjects:@"Sessions",@"Speakers",@"Locations",@"Where am I?",@"Shedule",@"Rating", nil];			
     
     
      [super viewDidLoad];
