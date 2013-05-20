@@ -8,22 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDataSource>{
+@class iConfsScreen;
 
-    
-        NSArray *optionsIConfs;
-        NSArray *optionsConference;
-        bool firstMenu;
-    }
-    
-    //@property (strong, nonatomic) IBOutlet UITableView *tabela;
-    
+@interface ViewController : UIViewController<UITableViewDataSource>
 
+@property (strong, nonatomic) iConfsScreen *iConfsScreen;
+
+@property (weak, nonatomic) IBOutlet UIImageView *IconView;
+@property (weak, nonatomic) IBOutlet UITableView *MenuView;
     
-    @property (nonatomic,retain)    NSArray *optionsIConfs;
-    @property (nonatomic,retain)    NSArray *optionsConference;
-    @property (nonatomic,readwrite) bool firsMenu;
-    
-    
-    @end
+@end
 
