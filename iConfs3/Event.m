@@ -11,28 +11,28 @@
 @implementation Event
 
 -(Event*)initWithData:(int)eID date:(NSDate*)d title:(NSString*)t theme:(NSString*)th{
-    self.eventID = eID;
-    self.date = d;
-    self.title = t;
-    self.theme = th;
-    self.vote = -1;
-    self.rating = -1;
+    eventID = eID;
+    date = d;
+    title = t;
+    theme = th;
+    vote = -1;
+    rating = -1;
     return self;
 }
 
 -(Event*)initWithDataAndSpeaker:(int)eID date:(NSDate*)d title:(NSString*)t theme:(NSString*)th speaker: (Speaker*)s{
-    self.eventID = eID;
-    self.date = d;
-    self.title = t;
-    self.theme = th;
-    self.speaker = s;
-    self.vote = -1;
-    self.rating = -1;
+    eventID = eID;
+    date = d;
+    title = t;
+    theme = th;
+    speaker = s;
+    vote = -1;
+    rating = -1;
     return self;
 }
 
 -(void)vote:(int)v{
-    self.vote = v;
+    vote = v;
 }
 
 -(NSString*)getTitle{
@@ -52,7 +52,7 @@
 }
 
 -(void)setSpeaker:(Speaker*)s{
-    self.speaker = s;
+    speaker = s;
 }
 
 -(int)getVote{
@@ -60,7 +60,7 @@
 }
 
 -(void)rate:(int)r{
-    self.rating = r;
+    rating = r;
 }
 
 -(int)getRate{

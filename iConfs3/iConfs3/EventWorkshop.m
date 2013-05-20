@@ -10,4 +10,17 @@
 
 @implementation EventWorkshop
 
+-(EventWorkshop*)initWithDataAndSpeaker:(int)eID date:(NSDate*)d title:(NSString*)t theme:(NSString*)th speaker:(Speaker*)s needs:(NSString*)n{
+    eventID = eID;
+    date = d;
+    title = t;
+    theme = th;
+    speaker = s;
+    needs = n;
+    return self;
+}
+-(NSString*)getNeeds{
+    return needs;
+}
+
 @end
