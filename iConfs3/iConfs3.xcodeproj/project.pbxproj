@@ -30,7 +30,6 @@
 		A0732FC81746538B00DC24DE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC71746538B00DC24DE /* News.m */; };
 		A0A1F5471749BFCB00B660D2 /* Conference.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A1F5411749BFCA00B660D2 /* Conference.m */; };
 		A0DB01A61749C5B4006E8BD5 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DB01A51749C5B4006E8BD5 /* Event.m */; };
-		A0DB01AC1749CA97006E8BD5 /* Workshop.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DB01AB1749CA97006E8BD5 /* Workshop.m */; };
 		A0DB01AF1749CCA9006E8BD5 /* EventWorkshop.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DB01AE1749CCA8006E8BD5 /* EventWorkshop.m */; };
 /* End PBXBuildFile section */
 
@@ -90,8 +89,6 @@
 		A0A1F5411749BFCA00B660D2 /* Conference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Conference.m; path = ../../../../../Desktop/backup/Conference.m; sourceTree = "<group>"; };
 		A0DB01A41749C5B4006E8BD5 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = ../Event.h; sourceTree = "<group>"; };
 		A0DB01A51749C5B4006E8BD5 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = ../Event.m; sourceTree = "<group>"; };
-		A0DB01AA1749CA97006E8BD5 /* Workshop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Workshop.h; path = ../Workshop.h; sourceTree = "<group>"; };
-		A0DB01AB1749CA97006E8BD5 /* Workshop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Workshop.m; path = ../Workshop.m; sourceTree = "<group>"; };
 		A0DB01AD1749CCA8006E8BD5 /* EventWorkshop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventWorkshop.h; sourceTree = "<group>"; };
 		A0DB01AE1749CCA8006E8BD5 /* EventWorkshop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventWorkshop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,10 +163,8 @@
 				A0DB01A51749C5B4006E8BD5 /* Event.m */,
 				28CE74471747964F0045BEEA /* News.h */,
 				A0732FC71746538B00DC24DE /* News.m */,
-				A0DB01AA1749CA97006E8BD5 /* Workshop.h */,
 				A0DB01AD1749CCA8006E8BD5 /* EventWorkshop.h */,
 				A0DB01AE1749CCA8006E8BD5 /* EventWorkshop.m */,
-				A0DB01AB1749CA97006E8BD5 /* Workshop.m */,
 				A058344B1742E33500F17B2B /* Person.h */,
 				A09E7DDD1745310F00886397 /* iConfs.h */,
 				A09E7DDE1745341100886397 /* Notification.h */,
@@ -343,7 +338,6 @@
 				28CE74431747948B0045BEEA /* iConfsScreen.m in Sources */,
 				A0A1F5471749BFCB00B660D2 /* Conference.m in Sources */,
 				A0DB01A61749C5B4006E8BD5 /* Event.m in Sources */,
-				A0DB01AC1749CA97006E8BD5 /* Workshop.m in Sources */,
 				A0DB01AF1749CCA9006E8BD5 /* EventWorkshop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
