@@ -90,6 +90,9 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="iConfs" id="Pqx-Wc-xxF"/>
+                    <connections>
+                        <outlet property="navBar" destination="Pqx-Wc-xxF" id="Q5K-fU-PnM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hIO-pU-k2z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -118,8 +121,8 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="788"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" sectionIndexMinimumDisplayRowCount="1" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="aa4-CK-qNM">
-                                <rect key="frame" x="0.0" y="133" width="320" height="485"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" sectionIndexMinimumDisplayRowCount="1" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="aa4-CK-qNM">
+                                <rect key="frame" x="0.0" y="146" width="320" height="563"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <color key="separatorColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <prototypes>
@@ -138,17 +141,6 @@
                                     <outlet property="dataSource" destination="CyA-br-nYT" id="HAP-Bm-QQx"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7nF-dB-qF2">
-                                <rect key="frame" x="0.0" y="137" width="326" height="41"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="iConfs" backgroundImage="botão iConfs.png">
-                                    <color key="titleColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="ZY7-eC-2lD">
                                 <rect key="frame" x="217" y="741" width="79" height="27"/>
                             </switch>
@@ -159,7 +151,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pulpito.png" id="xh4-Tz-tIZ">
-                                <rect key="frame" x="31" y="10" width="240" height="128"/>
+                                <rect key="frame" x="40" y="10" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -176,7 +168,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="botão iConfs.png" width="766" height="20"/>
         <image name="pulpito.png" width="375" height="375"/>
     </resources>
     <classes>
@@ -191,9 +182,16 @@
         </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="IconView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="MenuView" candidateClass="UITableView"/>
+            </relationships>
         </class>
         <class className="iConfsScreen" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/iConfsScreen.h"/>
+            <relationships>
+                <relationship kind="outlet" name="navBar" candidateClass="UINavigationItem"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

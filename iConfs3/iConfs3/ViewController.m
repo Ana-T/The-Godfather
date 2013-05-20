@@ -7,44 +7,32 @@
 //
 
 #import "ViewController.h"
+#import "iConfsScreen.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    NSArray *optionsConference;
+    NSArray *optionsIConfs;
+}
 
 @end
 
 @implementation ViewController
-@synthesize optionsConference;
-@synthesize optionsIConfs;
-@synthesize firsMenu;
-
-
-- (void)awakeFromNib
-{
-   // self.clearsSelectionOnViewWillAppear = NO;
-    self.contentSizeForViewInPopover = CGSizeMake(320.0, 600.0);
-    [super awakeFromNib];
-}
-
 
 - (void)viewDidLoad
 {
-   
+    [super viewDidLoad];
+    
     optionsIConfs=[[NSArray alloc] initWithObjects:@"Add Conference",@"My Conferences", @"Personal Agenda",nil];
+    optionsConference=[[NSArray alloc] initWithObjects:@"Sessions",@"Speakers",@"Locations",@"Where am I?",@"Shedule",@"Rating", nil];
     
-    
-    optionsConference=[[NSArray alloc] initWithObjects:@"Sessions",@"Speakers",@"Locations",@"Where am I?",@"Shedule",@"Rating", nil];			
-    
-    
-     [super viewDidLoad];
     UINavigationBar *navBar = [[self navigationController] navigationBar];
     UIImage *backgroundImage = [UIImage imageNamed:@"NavigationBar"];
     [navBar setBackgroundImage:backgroundImage forBarMetrics:UIBarMetricsDefault];
-
-//    self.navController.navigationBar.tintColor = [UIColor colorWithRed:20/255 green:44/255 blue:86/255 alpha:1];
-
-	// Do any additional setup after loading the view, typically from a nib.
     
+    self.iConfsScreen = (iConfsScreen *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
+
+
 #pragma mark - Métodos da Tabela!
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -57,21 +45,21 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell=nil;
-    NSString *id;
-    if(indexPath.section==0) id=@"myCell";
-    else id=@"myGroupedCell";
-    cell=[tableView dequeueReusableCellWithIdentifier:@"myCell"];
     
-    if(cell==nil){
+    NSString *cellID = @"myCell";
+
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:cellID];
     
-    cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"myCell"];
+    if (!cell) {
+        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
-    if(indexPath.section==0){
-   
+    
+    if (indexPath.section==0) {
         cell.textLabel.text=[optionsIConfs objectAtIndex:indexPath.row];
-    }
-    else    cell.textLabel.text=[optionsConference objectAtIndex:indexPath.row];
+    }else
+        cell.textLabel.text=[optionsConference objectAtIndex:indexPath.row];
+    
+    cell.textLabel.textAlignment = NSTextAlignmentCenter;
 
     return cell;
 
@@ -90,7 +78,17 @@
     
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    NSString *str;
+    
+    if (indexPath.section == 0) {
+        str = optionsIConfs[indexPath.row];
+    }else
+        str = optionsConference[indexPath.row];
 
-
+    self.iConfsScreen.detailItem = str;
+    
+}
 
 @end
