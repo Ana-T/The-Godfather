@@ -49,7 +49,7 @@
 /**
  Initializes a new Event object
  @param eID id of the event
- @param d date and time of the conference
+ @param d date and time of the event
  @param t title of the event
  @param th theme of the event
  @returns a newly initialized object
@@ -59,7 +59,7 @@
 /**
  Initializes a new Event object with Speaker
  @param eID id of the event
- @param d date and time of the conference
+ @param d date and time of the event
  @param t title of the event
  @param th theme of the event
  @param s spearker of the event

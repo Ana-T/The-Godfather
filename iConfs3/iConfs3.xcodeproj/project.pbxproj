@@ -25,6 +25,7 @@
 		28068A2717427C6C009C43DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28068A2517427C6C009C43DE /* InfoPlist.strings */; };
 		28068A2A17427C6C009C43DE /* iConfs3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28068A2917427C6C009C43DE /* iConfs3Tests.m */; };
 		28CE74431747948B0045BEEA /* iConfsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE74421747948B0045BEEA /* iConfsScreen.m */; };
+		A04B5747174A9C9A004212FC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A04B5746174A9C9A004212FC /* Person.m */; };
 		A0732FC81746538B00DC24DE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC71746538B00DC24DE /* News.m */; };
 		A0A1F5471749BFCB00B660D2 /* Conference.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A1F5411749BFCA00B660D2 /* Conference.m */; };
 		A0DB01A61749C5B4006E8BD5 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DB01A51749C5B4006E8BD5 /* Event.m */; };
@@ -68,7 +69,8 @@
 		28CE74411747948B0045BEEA /* iConfsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iConfsScreen.h; sourceTree = "<group>"; };
 		28CE74421747948B0045BEEA /* iConfsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iConfsScreen.m; sourceTree = "<group>"; };
 		28CE74471747964F0045BEEA /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
-		A058344B1742E33500F17B2B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A04B5745174A9C9A004212FC /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		A04B5746174A9C9A004212FC /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
 		A058344C1742FC8200F17B2B /* Author.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
 		A058344D1743038600F17B2B /* Organizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Organizer.h; sourceTree = "<group>"; };
 		A058344E174305F000F17B2B /* Speaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speaker.h; sourceTree = "<group>"; };
@@ -161,9 +163,10 @@
 				A0732FC71746538B00DC24DE /* News.m */,
 				A0DB01AD1749CCA8006E8BD5 /* EventWorkshop.h */,
 				A0DB01AE1749CCA8006E8BD5 /* EventWorkshop.m */,
-				A058344B1742E33500F17B2B /* Person.h */,
 				A09E7DDD1745310F00886397 /* iConfs.h */,
 				A09E7DDE1745341100886397 /* Notification.h */,
+				A04B5745174A9C9A004212FC /* Person.h */,
+				A04B5746174A9C9A004212FC /* Person.m */,
 				A058344C1742FC8200F17B2B /* Author.h */,
 				A058344D1743038600F17B2B /* Organizer.h */,
 				A058344E174305F000F17B2B /* Speaker.h */,
@@ -331,6 +334,7 @@
 				A0A1F5471749BFCB00B660D2 /* Conference.m in Sources */,
 				A0DB01A61749C5B4006E8BD5 /* Event.m in Sources */,
 				A0DB01AF1749CCA9006E8BD5 /* EventWorkshop.m in Sources */,
+				A04B5747174A9C9A004212FC /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
