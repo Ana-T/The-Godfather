@@ -10,6 +10,7 @@
 #import "iConfsScreen.h"
 
 @interface ViewController (){
+    @protected
     NSArray *optionsConference;
     NSArray *optionsIConfs;
 }
