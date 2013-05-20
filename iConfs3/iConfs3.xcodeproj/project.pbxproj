@@ -28,6 +28,9 @@
 		28755993174966C7006431DB /* pulpito.png in Resources */ = {isa = PBXBuildFile; fileRef = 28755991174966C7006431DB /* pulpito.png */; };
 		28CE74431747948B0045BEEA /* iConfsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE74421747948B0045BEEA /* iConfsScreen.m */; };
 		A0732FC81746538B00DC24DE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC71746538B00DC24DE /* News.m */; };
+		A0A1F5471749BFCB00B660D2 /* Conference.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A1F5411749BFCA00B660D2 /* Conference.m */; };
+		A0DB01A61749C5B4006E8BD5 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DB01A51749C5B4006E8BD5 /* Event.m */; };
+		A0DB01A91749C620006E8BD5 /* Workshop.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DB01A81749C620006E8BD5 /* Workshop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,11 +71,7 @@
 		28755991174966C7006431DB /* pulpito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pulpito.png; path = ../Recursos/pulpito.png; sourceTree = "<group>"; };
 		28CE74411747948B0045BEEA /* iConfsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iConfsScreen.h; sourceTree = "<group>"; };
 		28CE74421747948B0045BEEA /* iConfsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iConfsScreen.m; sourceTree = "<group>"; };
-		28CE74441747964F0045BEEA /* Conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conference.h; sourceTree = "<group>"; };
-		28CE74451747964F0045BEEA /* Conferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conferences.h; sourceTree = "<group>"; };
-		28CE74461747964F0045BEEA /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		28CE74471747964F0045BEEA /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
-		28CE74481747964F0045BEEA /* Workshop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workshop.h; sourceTree = "<group>"; };
 		A058344B1742E33500F17B2B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A058344C1742FC8200F17B2B /* Author.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
 		A058344D1743038600F17B2B /* Organizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Organizer.h; sourceTree = "<group>"; };
@@ -84,9 +83,14 @@
 		A058345517431C8400F17B2B /* EatingArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EatingArea.h; sourceTree = "<group>"; };
 		A058345617431DCE00F17B2B /* Room.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 		A0732FC71746538B00DC24DE /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
-		A0774AF91747267300CA1515 /* News.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = News.h; path = ../News.h; sourceTree = "<group>"; };
 		A09E7DDD1745310F00886397 /* iConfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iConfs.h; sourceTree = "<group>"; };
 		A09E7DDE1745341100886397 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		A0A1F5401749BFCA00B660D2 /* Conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conference.h; path = ../../../../../Desktop/backup/Conference.h; sourceTree = "<group>"; };
+		A0A1F5411749BFCA00B660D2 /* Conference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Conference.m; path = ../../../../../Desktop/backup/Conference.m; sourceTree = "<group>"; };
+		A0DB01A41749C5B4006E8BD5 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = ../Event.h; sourceTree = "<group>"; };
+		A0DB01A51749C5B4006E8BD5 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = ../Event.m; sourceTree = "<group>"; };
+		A0DB01A71749C620006E8BD5 /* Workshop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Workshop.h; path = ../Workshop.h; sourceTree = "<group>"; };
+		A0DB01A81749C620006E8BD5 /* Workshop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Workshop.m; path = ../Workshop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,17 +153,18 @@
 				28068A0417427C6C009C43DE /* AppDelegate.h */,
 				28068A0517427C6C009C43DE /* AppDelegate.m */,
 				28068A0D17427C6C009C43DE /* MainStoryboard_iPhone.storyboard */,
-				28CE74441747964F0045BEEA /* Conference.h */,
-				28CE74451747964F0045BEEA /* Conferences.h */,
-				28CE74461747964F0045BEEA /* Event.h */,
-				28CE74471747964F0045BEEA /* News.h */,
-				28CE74481747964F0045BEEA /* Workshop.h */,
+				A0A1F5401749BFCA00B660D2 /* Conference.h */,
+				A0A1F5411749BFCA00B660D2 /* Conference.m */,
 				28068A1017427C6C009C43DE /* MainStoryboard_iPad.storyboard */,
 				28CE74411747948B0045BEEA /* iConfsScreen.h */,
 				28CE74421747948B0045BEEA /* iConfsScreen.m */,
 				28068A1317427C6C009C43DE /* ViewController.h */,
-				A0774AF91747267300CA1515 /* News.h */,
+				A0DB01A41749C5B4006E8BD5 /* Event.h */,
+				A0DB01A51749C5B4006E8BD5 /* Event.m */,
+				28CE74471747964F0045BEEA /* News.h */,
 				A0732FC71746538B00DC24DE /* News.m */,
+				A0DB01A71749C620006E8BD5 /* Workshop.h */,
+				A0DB01A81749C620006E8BD5 /* Workshop.m */,
 				A058344B1742E33500F17B2B /* Person.h */,
 				A09E7DDD1745310F00886397 /* iConfs.h */,
 				A09E7DDE1745341100886397 /* Notification.h */,
@@ -331,6 +336,9 @@
 				28068A1517427C6C009C43DE /* ViewController.m in Sources */,
 				A0732FC81746538B00DC24DE /* News.m in Sources */,
 				28CE74431747948B0045BEEA /* iConfsScreen.m in Sources */,
+				A0A1F5471749BFCB00B660D2 /* Conference.m in Sources */,
+				A0DB01A61749C5B4006E8BD5 /* Event.m in Sources */,
+				A0DB01A91749C620006E8BD5 /* Workshop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

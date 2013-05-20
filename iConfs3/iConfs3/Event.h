@@ -2,36 +2,33 @@
 //  Event.h
 //  iConfs3
 //
-//  Created by Eduardo Joel Pereira Beja Martins on 15/05/13.
+//  Created by Eduardo Joel Pereira Beja Martins on 18/05/13.
 //  Copyright (c) 2013 G10PI. All rights reserved.
 //
 
-#ifndef iConfs3_Event_h
-#define iConfs3_Event_h
-
-#import <Foundation/NSObject.h>
+#import <Foundation/Foundation.h>
 #import "Speaker.h"
 
-@interface Event: NSObject
-/*{
-    @protected
-    NSDate *_date;
-    NSString *_title;
-    NSString *_theme;
-    Speaker *_speaker;
+@interface Event : NSObject
+{
+@protected
+    NSDate* date;
+    NSString* title;
+    NSString* theme;
+    Speaker* speaker;
     BOOL userVoted;
-    NSInteger vote;
-    NSInteger rating;
-    NSInteger eventID;
-}*/
-@property (nonatomic) NSDate* date;
-@property (nonatomic) NSString* title;
-@property (nonatomic) NSString* theme;
-@property (nonatomic) Speaker* speaker;
-@property (nonatomic) BOOL userVoted;
-@property (nonatomic) int vote;
-@property (nonatomic) int rating;
-@property (nonatomic) int eventID;
+    int vote;
+    int rating;
+    int eventID;
+}
+//@property (nonatomic) NSDate* date;
+//@property (nonatomic) NSString* title;
+//@property (nonatomic) NSString* theme;
+//@property (nonatomic) Speaker* speaker;
+//@property (nonatomic) BOOL userVoted;
+//@property (nonatomic) int vote;
+//@property (nonatomic) int rating;
+//@property (nonatomic) int eventID;
 
 -(Event*)initWithData:(int)eID date:(NSDate*)d title:(NSString*)t theme:(NSString*)th;
 -(Event*)initWithDataAndSpeaker:(int)eID date:(NSDate*)d title:(NSString*)t theme:(NSString*)th speaker: (Speaker*)s;
@@ -46,6 +43,5 @@
 -(void)getRate;
 -(NSDate*)getDate;
 -(void)setDate:(NSDate*)d;
-@end
 
-#endif
+@end
