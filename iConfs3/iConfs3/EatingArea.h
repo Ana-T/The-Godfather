@@ -27,15 +27,15 @@
 -(EatingArea*)initEA: (int)xx y:(int)yy name:(NSString*)n;
 
 /**
- Gets eating area name
+ Gets the eating area name
  @returns eating area name
  */
 -(NSString*)getName;
 
 /**
- Sets eating area name
+ Sets the eating area name
  @param n new eating area name
- @returns eating area name
+ @returns 
  */
 -(void)setName: (NSString*)n;
 
