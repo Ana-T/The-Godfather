@@ -10,7 +10,7 @@
 
 @implementation Author
 
--(Person*)initWithData: (NSString*) n work: (NSString*) h image:(NSString*)imgPath personID: (int)pID{
+-(Author*)initWithData: (NSString*) n work: (NSString*) h image:(NSString*)imgPath personID: (int)pID{
     name = n;
     work = h;
     imagePath = imgPath;

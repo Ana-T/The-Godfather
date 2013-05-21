@@ -19,6 +19,16 @@
 @property (nonatomic) NSMutableDictionary* papers;
 
 /**
+ Initializes a new Author object
+ @param n name of the person
+ @param h the person's profession
+ @param imgPath the path to the person's picture
+ @param pID person's ID
+ @returns a newly initialized object
+ */
+-(Author*)initWithData: (NSString*) n work: (NSString*) h image:(NSString*)imgPath personID: (int)pID;
+
+/**
  Gets the author paper with given ID
  @param paper's ID
  @returns paper or null if the author hasn't written the paper
