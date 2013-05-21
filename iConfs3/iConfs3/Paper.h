@@ -22,6 +22,7 @@
 -(NSString*)getTitle;
 -(NSArray*)getAuthors;
 -(NSString*)getAbstract;
+-(int)getID;
 
 @end
 
