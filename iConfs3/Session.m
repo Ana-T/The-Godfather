@@ -21,7 +21,7 @@
 }
 
 -(Author*)getAuthor{
-    author;ß
+    return author;
 }
 
 @end
