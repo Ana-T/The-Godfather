@@ -34,6 +34,7 @@
 		A061065E174B203500E1842D /* Paper.m in Sources */ = {isa = PBXBuildFile; fileRef = A061065D174B203500E1842D /* Paper.m */; };
 		A0610661174B254C00E1842D /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = A0610660174B254C00E1842D /* Place.m */; };
 		A0610664174B287900E1842D /* WC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0610663174B287900E1842D /* WC.m */; };
+		A0610667174B299100E1842D /* EatingArea.m in Sources */ = {isa = PBXBuildFile; fileRef = A0610666174B299100E1842D /* EatingArea.m */; };
 		A0732FC81746538B00DC24DE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC71746538B00DC24DE /* News.m */; };
 		A0A1F5471749BFCB00B660D2 /* Conference.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A1F5411749BFCA00B660D2 /* Conference.m */; };
 		A0DB01A61749C5B4006E8BD5 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DB01A51749C5B4006E8BD5 /* Event.m */; };
@@ -79,7 +80,6 @@
 		28CE74471747964F0045BEEA /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		A04B5745174A9C9A004212FC /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
 		A04B5746174A9C9A004212FC /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
-		A058345517431C8400F17B2B /* EatingArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EatingArea.h; sourceTree = "<group>"; };
 		A058345617431DCE00F17B2B /* Room.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 		A061064D174AC69100E1842D /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Session.h; path = ../Session.h; sourceTree = "<group>"; };
 		A061064E174AC69100E1842D /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Session.m; path = ../Session.m; sourceTree = "<group>"; };
@@ -97,6 +97,8 @@
 		A0610660174B254C00E1842D /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Place.m; path = ../Place.m; sourceTree = "<group>"; };
 		A0610662174B287900E1842D /* WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WC.h; path = ../WC.h; sourceTree = "<group>"; };
 		A0610663174B287900E1842D /* WC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WC.m; path = ../WC.m; sourceTree = "<group>"; };
+		A0610665174B299100E1842D /* EatingArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EatingArea.h; sourceTree = "<group>"; };
+		A0610666174B299100E1842D /* EatingArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EatingArea.m; sourceTree = "<group>"; };
 		A0732FC71746538B00DC24DE /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		A09E7DDD1745310F00886397 /* iConfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iConfs.h; sourceTree = "<group>"; };
 		A0A1F5401749BFCA00B660D2 /* Conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conference.h; path = ../../../../../Desktop/backup/Conference.h; sourceTree = "<group>"; };
@@ -199,7 +201,8 @@
 				A0610660174B254C00E1842D /* Place.m */,
 				A0610662174B287900E1842D /* WC.h */,
 				A0610663174B287900E1842D /* WC.m */,
-				A058345517431C8400F17B2B /* EatingArea.h */,
+				A0610665174B299100E1842D /* EatingArea.h */,
+				A0610666174B299100E1842D /* EatingArea.m */,
 				A058345617431DCE00F17B2B /* Room.h */,
 				280689FC17427C6C009C43DE /* Supporting Files */,
 			);
@@ -367,6 +370,7 @@
 				A061065E174B203500E1842D /* Paper.m in Sources */,
 				A0610661174B254C00E1842D /* Place.m in Sources */,
 				A0610664174B287900E1842D /* WC.m in Sources */,
+				A0610667174B299100E1842D /* EatingArea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
