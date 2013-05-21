@@ -10,6 +10,15 @@
 
 @implementation Author
 
+-(Person*)initWithData: (NSString*) n work: (NSString*) h image:(NSString*)imgPath personID: (int)pID{
+    name = n;
+    work = h;
+    imagePath = imgPath;
+    personID = pID;
+    return self;
+}
+
+
 -(Paper*)getPaper:(int)paperID{
     NSNumber *value = [papers objectForKey:[NSNumber numberWithInteger: paperID]];
     
@@ -53,6 +62,22 @@
     {
         return false;
     }
+}
+
+-(NSString*)getName{
+    return name;
+}
+
+-(NSString*)getWork{
+    return work;
+}
+
+-(NSString*)getImagePath{
+    return imagePath;
+}
+
+-(int)getID{
+    return personID;
 }
 
 @end

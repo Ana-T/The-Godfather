@@ -23,4 +23,48 @@
     return needs;
 }
 
+-(void)vote:(int)v{
+    vote = v;
+}
+
+-(NSString*)getTitle{
+    return title;
+}
+
+-(int)getID{
+    return eventID;
+}
+
+-(NSString*)getTheme{
+    return theme;
+}
+
+-(Speaker*)getSpeaker{
+    return speaker;
+}
+
+-(void)setSpeaker:(Speaker*)s{
+    speaker = s;
+}
+
+-(int)getVote{
+    return vote;
+}
+
+-(void)rate:(int)r{
+    rating = r;
+}
+
+-(int)getRate{
+    return rating;
+}
+
+-(NSDate*)getDate{
+    return date;
+}
+
+-(void)setDate:(NSDate*)d{
+    date = d;
+}
+
 @end

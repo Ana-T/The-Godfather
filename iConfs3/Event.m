@@ -72,7 +72,7 @@
 }
 
 -(void)setDate:(NSDate*)d{
-    self.date = d;
+    date = d;
 }
 
 @end

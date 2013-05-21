@@ -12,11 +12,14 @@
 #import <Foundation/NSObject.h>
 
 @interface Place: NSObject
-/*{
+{
     @protected
-    (NSInteger)x;
-    (NSInteger)y;
-}*/
+    int x;
+    int y;
+    NSString* logoPath;
+}
+
+//xx's coordinate
 @property (nonatomic) int x;
 @property (nonatomic) int y;
 @property (nonatomic) NSString* logoPath;

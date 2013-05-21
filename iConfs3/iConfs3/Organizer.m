@@ -27,4 +27,20 @@
     job = j;
 }
 
+-(NSString*)getName{
+    return name;
+}
+
+-(NSString*)getWork{
+    return work;
+}
+
+-(NSString*)getImagePath{
+    return imagePath;
+}
+
+-(int)getID{
+    return personID;
+}
+
 @end
