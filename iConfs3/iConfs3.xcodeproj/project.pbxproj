@@ -29,6 +29,7 @@
 		A061064F174AC69100E1842D /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = A061064E174AC69100E1842D /* Session.m */; };
 		A0610652174AFEC200E1842D /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = A0610651174AFEC200E1842D /* Notification.m */; };
 		A0610655174B06A700E1842D /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = A0610654174B06A700E1842D /* Author.m */; };
+		A0610658174B1B4400E1842D /* Organizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0610657174B1B4400E1842D /* Organizer.m */; };
 		A0732FC81746538B00DC24DE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC71746538B00DC24DE /* News.m */; };
 		A0A1F5471749BFCB00B660D2 /* Conference.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A1F5411749BFCA00B660D2 /* Conference.m */; };
 		A0DB01A61749C5B4006E8BD5 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DB01A51749C5B4006E8BD5 /* Event.m */; };
@@ -74,7 +75,6 @@
 		28CE74471747964F0045BEEA /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		A04B5745174A9C9A004212FC /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
 		A04B5746174A9C9A004212FC /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
-		A058344D1743038600F17B2B /* Organizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Organizer.h; sourceTree = "<group>"; };
 		A058344E174305F000F17B2B /* Speaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speaker.h; sourceTree = "<group>"; };
 		A058344F174306E000F17B2B /* Paper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Paper.h; sourceTree = "<group>"; };
 		A05834531743184000F17B2B /* Place.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
@@ -87,6 +87,8 @@
 		A0610651174AFEC200E1842D /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Notification.m; path = ../Notification.m; sourceTree = "<group>"; };
 		A0610653174B06A600E1842D /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Author.h; path = ../Author.h; sourceTree = "<group>"; };
 		A0610654174B06A700E1842D /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Author.m; path = ../Author.m; sourceTree = "<group>"; };
+		A0610656174B1B4300E1842D /* Organizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Organizer.h; sourceTree = "<group>"; };
+		A0610657174B1B4400E1842D /* Organizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Organizer.m; sourceTree = "<group>"; };
 		A0732FC71746538B00DC24DE /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		A09E7DDD1745310F00886397 /* iConfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iConfs.h; sourceTree = "<group>"; };
 		A0A1F5401749BFCA00B660D2 /* Conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conference.h; path = ../../../../../Desktop/backup/Conference.h; sourceTree = "<group>"; };
@@ -174,9 +176,10 @@
 				A09E7DDD1745310F00886397 /* iConfs.h */,
 				A04B5745174A9C9A004212FC /* Person.h */,
 				A04B5746174A9C9A004212FC /* Person.m */,
+				A0610656174B1B4300E1842D /* Organizer.h */,
+				A0610657174B1B4400E1842D /* Organizer.m */,
 				A0610653174B06A600E1842D /* Author.h */,
 				A0610654174B06A700E1842D /* Author.m */,
-				A058344D1743038600F17B2B /* Organizer.h */,
 				A058344E174305F000F17B2B /* Speaker.h */,
 				A0610650174AFEC100E1842D /* Notification.h */,
 				A0610651174AFEC200E1842D /* Notification.m */,
@@ -347,6 +350,7 @@
 				A061064F174AC69100E1842D /* Session.m in Sources */,
 				A0610652174AFEC200E1842D /* Notification.m in Sources */,
 				A0610655174B06A700E1842D /* Author.m in Sources */,
+				A0610658174B1B4400E1842D /* Organizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
