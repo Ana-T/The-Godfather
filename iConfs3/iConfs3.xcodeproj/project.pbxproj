@@ -36,6 +36,7 @@
 		A0610664174B287900E1842D /* WC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0610663174B287900E1842D /* WC.m */; };
 		A0610667174B299100E1842D /* EatingArea.m in Sources */ = {isa = PBXBuildFile; fileRef = A0610666174B299100E1842D /* EatingArea.m */; };
 		A061066A174B2B2500E1842D /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = A0610669174B2B2400E1842D /* Room.m */; };
+		A061066D174B2C9700E1842D /* IConfs.m in Sources */ = {isa = PBXBuildFile; fileRef = A061066C174B2C9700E1842D /* IConfs.m */; };
 		A0732FC81746538B00DC24DE /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = A0732FC71746538B00DC24DE /* News.m */; };
 		A0A1F5471749BFCB00B660D2 /* Conference.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A1F5411749BFCA00B660D2 /* Conference.m */; };
 		A0DB01A61749C5B4006E8BD5 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DB01A51749C5B4006E8BD5 /* Event.m */; };
@@ -101,8 +102,9 @@
 		A0610666174B299100E1842D /* EatingArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EatingArea.m; sourceTree = "<group>"; };
 		A0610668174B2B2400E1842D /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 		A0610669174B2B2400E1842D /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		A061066B174B2C9700E1842D /* IConfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IConfs.h; path = ../IConfs.h; sourceTree = "<group>"; };
+		A061066C174B2C9700E1842D /* IConfs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IConfs.m; path = ../IConfs.m; sourceTree = "<group>"; };
 		A0732FC71746538B00DC24DE /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
-		A09E7DDD1745310F00886397 /* iConfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iConfs.h; sourceTree = "<group>"; };
 		A0A1F5401749BFCA00B660D2 /* Conference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conference.h; path = ../../../../../Desktop/backup/Conference.h; sourceTree = "<group>"; };
 		A0A1F5411749BFCA00B660D2 /* Conference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Conference.m; path = ../../../../../Desktop/backup/Conference.m; sourceTree = "<group>"; };
 		A0DB01A41749C5B4006E8BD5 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = ../Event.h; sourceTree = "<group>"; };
@@ -178,6 +180,8 @@
 				28CE74421747948B0045BEEA /* iConfsScreen.m */,
 				28068A1317427C6C009C43DE /* ViewController.h */,
 				28068A1417427C6C009C43DE /* ViewController.m */,
+				A061066B174B2C9700E1842D /* IConfs.h */,
+				A061066C174B2C9700E1842D /* IConfs.m */,
 				A0DB01A41749C5B4006E8BD5 /* Event.h */,
 				A0DB01A51749C5B4006E8BD5 /* Event.m */,
 				28CE74471747964F0045BEEA /* News.h */,
@@ -186,7 +190,6 @@
 				A0DB01AE1749CCA8006E8BD5 /* EventWorkshop.m */,
 				A061064D174AC69100E1842D /* Session.h */,
 				A061064E174AC69100E1842D /* Session.m */,
-				A09E7DDD1745310F00886397 /* iConfs.h */,
 				A04B5745174A9C9A004212FC /* Person.h */,
 				A04B5746174A9C9A004212FC /* Person.m */,
 				A0610656174B1B4300E1842D /* Organizer.h */,
@@ -375,6 +378,7 @@
 				A0610664174B287900E1842D /* WC.m in Sources */,
 				A0610667174B299100E1842D /* EatingArea.m in Sources */,
 				A061066A174B2B2500E1842D /* Room.m in Sources */,
+				A061066D174B2C9700E1842D /* IConfs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,11 +27,10 @@
 -(Place*)initPlace: (int)xx y:(int)yy;
 -(int)getX;
 -(int)getY;
--(void)resetX(int)xx;
--(void)resetY(int)yy;
+-(void)resetX:(int)xx;
+-(void)resetY:(int)yy;
 -(NSString*) getLogo;
 @end
 
 #endif
 
-#endif
