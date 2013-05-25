@@ -164,7 +164,7 @@
 
 -(BOOL)addSessions:(Session*)session{
     BOOL isHere = false;
-    for (int i=0; i<[self.news count]; i++) {
+    for (int i=0; i<[self.sessions count]; i++) {
         if (((Session*)[self.sessions objectAtIndex:i]).getID == session.getID){
             isHere = true;
             break;
@@ -181,7 +181,7 @@
     BOOL isHere = false;
     //NSObject toRemove;
     int index;
-    for (int i=0; i<[self.news count]; i++) {
+    for (int i=0; i<[self.sessions count]; i++) {
         if (((Session*)[self.sessions objectAtIndex:i]).getID == eventID){
             isHere = true;
             //toRemove = [self.sessions objectAtIndex:i];
@@ -310,6 +310,10 @@
     {
         return false;
     }
+}
+    
+-(int)getID{
+    return confID;
 }
 
 @end

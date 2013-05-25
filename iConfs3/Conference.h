@@ -261,5 +261,11 @@
  */
 -(BOOL)deleteBluePrint:(int)floor;
 
+/**
+ Gets conference ID
+ @returns conference ID
+ */
+-(int)getID;
+
 @end
 
