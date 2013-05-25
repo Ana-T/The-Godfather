@@ -13,9 +13,9 @@
 @interface IConfs : NSObject
 {
     @protected
-    NSArray* conferences;
-    NSArray* allConferences;
-    NSArray* agenda;
+    NSMutableArray* conferences;
+    NSMutableArray* allConferences;
+    NSMutableArray* agenda;
 }
 
 //Subscribed conferences
